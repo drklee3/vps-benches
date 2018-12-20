@@ -8,6 +8,9 @@ if [ "$EUID" -ne 0 ]
     exit
 fi
 
+# install dependencies
+apt-get install -y time bzip2 bc dnsutils libc-dev lshw
+
 # get basic info
 echo "Distro Information"
 cat /etc/*-release
@@ -29,8 +32,6 @@ lshw -short
 
 printf "\n\nBenchmarks"
 
-# install dependencies
-apt-get install -y time bzip2 bc dnsutils libc-dev
 
 # do a bunch of different benchmarks, kinda redundant but oh well
 
