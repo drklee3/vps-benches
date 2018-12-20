@@ -9,6 +9,7 @@ if [ "$EUID" -ne 0 ]
 fi
 
 # install dependencies
+apt-get update
 apt-get install -qq -y time bzip2 bc dnsutils libc-dev lshw ioping dnsutils
 
 # get basic info
