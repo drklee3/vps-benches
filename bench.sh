@@ -45,9 +45,6 @@ wget -qO- wget.racing/nench.sh | bash
 # https://github.com/mgutz/vpsbench
 wget -qO- https://raw.github.com/mgutz/vpsbench/master/vpsbench | bash
 
-# busylog.net/vps-benchmark/
-wget -qO- http://busylog.net/FILES2DW/busytest.sh | bash
-
 # https://github.com/teddysun/across/blob/master/unixbench.sh
 wget -qO- https://github.com/teddysun/across/raw/master/unixbench.sh | bash
 
