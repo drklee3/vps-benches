@@ -49,5 +49,6 @@ wget -qO- https://raw.github.com/mgutz/vpsbench/master/vpsbench | bash
 wget -qO- https://github.com/teddysun/across/raw/master/unixbench.sh | bash
 
 # Test DNS performance
+printf "\n\nDNS performance"
 wget -qO- https://raw.githubusercontent.com/cleanbrowsing/dnsperftest/master/dnstest.sh | bash
 
