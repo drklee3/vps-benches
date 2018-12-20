@@ -1,0 +1,587 @@
+Distro Information
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=18.04
+DISTRIB_CODENAME=bionic
+DISTRIB_DESCRIPTION="Ubuntu 18.04.1 LTS"
+NAME="Ubuntu"
+VERSION="18.04.1 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.1 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.1 LTS
+Release:	18.04
+Codename:	bionic
+
+Linux bench 4.15.0-36-generic #39-Ubuntu SMP Mon Sep 24 16:19:09 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+
+System Informationprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 61
+model name	: Virtual CPU a7769a6388d5
+stepping	: 2
+microcode	: 0x1
+cpu MHz		: 2394.454
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti fsgsbase bmi1 avx2 smep bmi2 erms invpcid xsaveopt arat
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 4788.90
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+
+
+lshw
+bench
+    description: Computer
+    product: Standard PC (i440FX + PIIX, 1996)
+    vendor: QEMU
+    version: pc-i440fx-3.0
+    width: 64 bits
+    capabilities: smbios-2.8 dmi-2.8 vsyscall32
+    configuration: boot=normal uuid=25AE99E9-3F89-B149-89A8-3CA69B268514
+  *-core
+       description: Motherboard
+       physical id: 0
+     *-firmware
+          description: BIOS
+          vendor: SeaBIOS
+          physical id: 0
+          version: rel-1.11.2-0-gf9626ccb91-prebuilt.qemu-project.org
+          date: 04/01/2014
+          size: 96KiB
+     *-cpu
+          description: CPU
+          product: Virtual CPU a7769a6388d5
+          vendor: Intel Corp.
+          physical id: 400
+          bus info: cpu@0
+          version: pc-i440fx-3.0
+          slot: CPU 0
+          size: 2GHz
+          capacity: 2GHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp x86-64 constant_tsc rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti fsgsbase bmi1 avx2 smep bmi2 erms invpcid xsaveopt arat
+          configuration: cores=1 enabledcores=1 threads=1
+     *-memory
+          description: System Memory
+          physical id: 1000
+          size: 1GiB
+          capacity: 1GiB
+          capabilities: ecc
+          configuration: errordetection=multi-bit-ecc
+        *-bank
+             description: DIMM RAM
+             vendor: QEMU
+             physical id: 0
+             slot: DIMM 0
+             size: 1GiB
+     *-pci
+          description: Host bridge
+          product: 440FX - 82441FX PMC [Natoma]
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 02
+          width: 32 bits
+          clock: 33MHz
+        *-isa
+             description: ISA bridge
+             product: 82371SB PIIX3 ISA [Natoma/Triton II]
+             vendor: Intel Corporation
+             physical id: 1
+             bus info: pci@0000:00:01.0
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa
+             configuration: latency=0
+        *-ide
+             description: IDE interface
+             product: 82371SB PIIX3 IDE [Natoma/Triton II]
+             vendor: Intel Corporation
+             physical id: 1.1
+             bus info: pci@0000:00:01.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: ide bus_master
+             configuration: driver=ata_piix latency=0
+             resources: irq:0 ioport:1f0(size=8) ioport:3f6 ioport:170(size=8) ioport:376 ioport:c0e0(size=16)
+        *-usb
+             description: USB controller
+             product: 82371SB PIIX3 USB [Natoma/Triton II]
+             vendor: Intel Corporation
+             physical id: 1.2
+             bus info: pci@0000:00:01.2
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: uhci bus_master
+             configuration: driver=uhci_hcd latency=0
+             resources: irq:11 ioport:c080(size=32)
+           *-usbhost
+                product: UHCI Host Controller
+                vendor: Linux 4.15.0-36-generic uhci_hcd
+                physical id: 1
+                bus info: usb@1
+                logical name: usb1
+                version: 4.15
+                capabilities: usb-1.10
+                configuration: driver=hub slots=2 speed=12Mbit/s
+              *-usb
+                   description: Human interface device
+                   product: QEMU USB Tablet
+                   vendor: QEMU
+                   physical id: 1
+                   bus info: usb@1:1
+                   version: 0.00
+                   serial: 42
+                   capabilities: usb-2.00
+                   configuration: driver=usbhid maxpower=100mA speed=12Mbit/s
+        *-bridge
+             description: Bridge
+             product: 82371AB/EB/MB PIIX4 ACPI
+             vendor: Intel Corporation
+             physical id: 1.3
+             bus info: pci@0000:00:01.3
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: bridge
+             configuration: driver=piix4_smbus latency=0
+             resources: irq:9
+        *-display
+             description: VGA compatible controller
+             product: GD 5446
+             vendor: Cirrus Logic
+             physical id: 2
+             bus info: pci@0000:00:02.0
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: vga_controller rom
+             configuration: driver=cirrus latency=0
+             resources: irq:0 memory:fc000000-fdffffff memory:febf0000-febf0fff memory:c0000-dffff
+        *-network
+             description: Ethernet controller
+             product: Virtio network device
+             vendor: Red Hat, Inc
+             physical id: 3
+             bus info: pci@0000:00:03.0
+             version: 00
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msix bus_master cap_list
+             configuration: driver=virtio-pci latency=0
+             resources: irq:10 ioport:c000(size=64) memory:febf1000-febf1fff memory:fe000000-fe003fff
+           *-virtio0
+                description: Ethernet interface
+                physical id: 0
+                bus info: virtio@0
+                logical name: ens3
+                serial: 56:00:01:cf:37:8d
+                capabilities: ethernet physical
+                configuration: autonegotiation=off broadcast=yes driver=virtio_net driverversion=1.0.0 ip=45.77.189.33 link=yes multicast=yes
+        *-scsi
+             description: SCSI storage controller
+             product: Virtio block device
+             vendor: Red Hat, Inc
+             physical id: 4
+             bus info: pci@0000:00:04.0
+             version: 00
+             width: 64 bits
+             clock: 33MHz
+             capabilities: scsi msix bus_master cap_list
+             configuration: driver=virtio-pci latency=0
+             resources: irq:11 ioport:c040(size=64) memory:febf2000-febf2fff memory:fe004000-fe007fff
+           *-virtio1
+                description: Virtual I/O device
+                physical id: 0
+                bus info: virtio@1
+                logical name: /dev/vda
+                size: 25GiB (26GB)
+                capabilities: partitioned partitioned:dos
+                configuration: driver=virtio_blk logicalsectorsize=512 sectorsize=512 signature=1a0ef03f
+              *-volume
+                   description: EXT4 volume
+                   vendor: Linux
+                   physical id: 1
+                   bus info: virtio@1,1
+                   logical name: /dev/vda1
+                   logical name: /
+                   version: 1.0
+                   serial: 133a1e39-8da9-4120-92e1-4b54f8281f1b
+                   size: 24GiB
+                   capacity: 24GiB
+                   capabilities: primary bootable journaled extended_attributes large_files huge_files dir_nlink recover 64bit extents ext4 ext2 initialized
+                   configuration: created=2018-10-17 00:50:16 filesystem=ext4 lastmountpoint=/ modified=2018-12-20 18:35:08 mount.fstype=ext4 mount.options=rw,relatime,errors=remount-ro,data=ordered mounted=2018-12-20 18:35:09 state=mounted
+        *-generic:0
+             description: Unclassified device
+             product: Virtio memory balloon
+             vendor: Red Hat, Inc
+             physical id: 5
+             bus info: pci@0000:00:05.0
+             version: 00
+             width: 64 bits
+             clock: 33MHz
+             capabilities: bus_master cap_list
+             configuration: driver=virtio-pci latency=0
+             resources: irq:10 ioport:c0a0(size=32) memory:fe008000-fe00bfff
+           *-virtio2 UNCLAIMED
+                description: Virtual I/O device
+                physical id: 0
+                bus info: virtio@2
+                configuration: driver=virtio_balloon
+        *-generic:1
+             description: Unclassified device
+             product: Virtio RNG
+             vendor: Red Hat, Inc
+             physical id: 6
+             bus info: pci@0000:00:06.0
+             version: 00
+             width: 64 bits
+             clock: 33MHz
+             capabilities: bus_master cap_list
+             configuration: driver=virtio-pci latency=0
+             resources: irq:11 ioport:c0c0(size=32) memory:fe00c000-fe00ffff
+           *-virtio3 UNCLAIMED
+                description: Virtual I/O device
+                physical id: 0
+                bus info: virtio@3
+                configuration: driver=virtio_rng
+     *-scsi
+          physical id: 1
+          logical name: scsi1
+          capabilities: emulated
+        *-cdrom
+             description: DVD reader
+             product: QEMU DVD-ROM
+             vendor: QEMU
+             physical id: 0.0.0
+             bus info: scsi@1:0.0.0
+             logical name: /dev/cdrom
+             logical name: /dev/dvd
+             logical name: /dev/sr0
+             version: 2.5+
+             capabilities: removable audio dvd
+             configuration: ansiversion=5 status=nodisc
+
+lshw -short
+H/W path        Device      Class      Description
+==================================================
+                            system     Standard PC (i440FX + PIIX, 1996)
+/0                          bus        Motherboard
+/0/0                        memory     96KiB BIOS
+/0/400                      processor  Virtual CPU a7769a6388d5
+/0/1000                     memory     1GiB System Memory
+/0/1000/0                   memory     1GiB DIMM RAM
+/0/100                      bridge     440FX - 82441FX PMC [Natoma]
+/0/100/1                    bridge     82371SB PIIX3 ISA [Natoma/Triton II]
+/0/100/1.1                  storage    82371SB PIIX3 IDE [Natoma/Triton II]
+/0/100/1.2                  bus        82371SB PIIX3 USB [Natoma/Triton II]
+/0/100/1.2/1    usb1        bus        UHCI Host Controller
+/0/100/1.2/1/1              input      QEMU USB Tablet
+/0/100/1.3                  bridge     82371AB/EB/MB PIIX4 ACPI
+/0/100/2                    display    GD 5446
+/0/100/3                    network    Virtio network device
+/0/100/3/0      ens3        network    Ethernet interface
+/0/100/4                    storage    Virtio block device
+/0/100/4/0      /dev/vda    disk       26GB Virtual I/O device
+/0/100/4/0/1    /dev/vda1   volume     24GiB EXT4 volume
+/0/100/5                    generic    Virtio memory balloon
+/0/100/5/0                  generic    Virtual I/O device
+/0/100/6                    generic    Virtio RNG
+/0/100/6/0                  generic    Virtual I/O device
+/0/1            scsi1       storage    
+/0/1/0.0.0      /dev/cdrom  disk       QEMU DVD-ROM
+
+
+Benchmarks[3J[H[2J----------------------------------------------------------------------
+CPU model            : [0;36mVirtual CPU a7769a6388d5[0m
+Number of cores      : [0;36m1[0m
+CPU frequency        : [0;36m2394.454 MHz[0m
+Total size of Disk   : [0;36m25.0 GB (3.3 GB Used)[0m
+Total amount of Mem  : [0;36m985 MB (80 MB Used)[0m
+Total amount of Swap : [0;36m0 MB (0 MB Used)[0m
+System uptime        : [0;36m0 days, 2 hour 41 min[0m
+Load average         : [0;36m0.15, 0.03, 0.03[0m
+OS                   : [0;36mUbuntu 18.04.1 LTS[0m
+Arch                 : [0;36mx86_64 (64 Bit)[0m
+Kernel               : [0;36m4.15.0-36-generic[0m
+----------------------------------------------------------------------
+I/O speed(1st run)   : [0;33m324 MB/s[0m
+I/O speed(2nd run)   : [0;33m335 MB/s[0m
+I/O speed(3rd run)   : [0;33m338 MB/s[0m
+Average I/O speed    : [0;33m332.3 MB/s[0m
+----------------------------------------------------------------------
+Node Name                       IPv4 address            Download Speed
+[0;33mCacheFly                        [0;32m205.234.175.175         [0;31m125MB/s       [0m
+[0;33mLinode, Tokyo, JP               [0;32m106.187.96.148          [0;31m1.51MB/s      [0m
+[0;33mLinode, Singapore, SG           [0;32m139.162.23.4            [0;31m1.04MB/s      [0m
+[0;33mLinode, London, UK              [0;32m176.58.107.39           [0;31m1.12MB/s      [0m
+[0;33mLinode, Frankfurt, DE           [0;32m139.162.130.8           [0;31m1.06MB/s      [0m
+[0;33mLinode, Fremont, CA             [0;32m50.116.14.9             [0;31m81.9MB/s      [0m
+[0;33mSoftlayer, Dallas, TX           [0;32m173.192.68.18           [0;31m4.07MB/s      [0m
+[0;33mSoftlayer, Seattle, WA          [0;32m67.228.112.250          [0;31m8.91MB/s      [0m
+[0;33mSoftlayer, Frankfurt, DE        [0;32m159.122.69.4            [0;31m1.15MB/s      [0m
+[0;33mSoftlayer, Singapore, SG        [0;32m119.81.28.170           [0;31m783KB/s       [0m
+[0;33mSoftlayer, HongKong, CN         [0;32m119.81.130.170          [0;31m1.08MB/s      [0m
+----------------------------------------------------------------------
+-------------------------------------------------
+ nench.sh v2018.04.14 -- https://git.io/nench.sh
+ benchmark timestamp:    2018-12-20 21:28:00 UTC
+-------------------------------------------------
+
+Processor:    Virtual CPU a7769a6388d5
+CPU cores:    1
+Frequency:    2394.454 MHz
+RAM:          985M
+Swap:         -
+Kernel:       Linux 4.15.0-36-generic x86_64
+
+Disks:
+vda     25G  HDD
+
+CPU: SHA256-hashing 500 MB
+    CPU: bzip2-compressing 500 MB
+    CPU: AES-encrypting 500 MB
+    
+ioping: seek rate
+    min/avg/max/mdev = 188.2 us / 262.0 us / 6.73 ms / 99.9 us
+ioping: sequential read speed
+    generated 2.37 k requests in 5.00 s, 592.5 MiB, 473 iops, 118.5 MiB/s
+
+dd: sequential write speed
+    1st run:    300.41 MiB/s
+    2nd run:    308.04 MiB/s
+    3rd run:    311.85 MiB/s
+    average:    306.77 MiB/s
+
+IPv4 speedtests
+    your IPv4:    45.77.189.xxxx
+
+    Cachefly CDN:         183.49 MiB/s
+    Leaseweb (NL):        1.10 MiB/s
+    Softlayer DAL (US):   4.04 MiB/s
+    Online.net (FR):      1.06 MiB/s
+    OVH BHS (CA):         2.26 MiB/s
+
+No IPv6 connectivity detected
+-------------------------------------------------
+
+Benching I/O ... OK
+Benching CPU. Bzipping 25MB file ... OK
+Benching inbound network. Downloading 100MB file ... OK
+Share at https://github.com/mgutz/vpsbench/wiki/VPS-Hosts
+
+
+_12/20/2018 - VMPLAN - DATACENTER - OS - AUTHOR_
+```
+CPU model:  Virtual CPU a7769a6388d5
+Number of cores: 1
+CPU frequency:  2394.454 MHz
+Total amount of RAM: 985 MB
+Total amount of swap:  MB
+System uptime:   2:54,       
+I/O speed:  330 MB/s
+Bzip 25MB: 6.35s
+Download 100MB file: 153MB/s
+```
+
+
+Hit:1 http://archive.ubuntu.com/ubuntu bionic InRelease
+Get:2 http://archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+Hit:3 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Get:4 http://archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+Fetched 163 kB in 1s (232 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+autoconf is already the newest version (2.69-11).
+automake is already the newest version (1:1.15.1-3ubuntu2).
+make is already the newest version (4.1-9.1ubuntu1).
+time is already the newest version (1.7-25.1build1).
+gcc is already the newest version (4:7.3.0-3ubuntu2.1).
+perl is already the newest version (5.26.1-6ubuntu0.3).
+0 upgraded, 0 newly installed, 0 to remove and 81 not upgraded.
+UnixBench5.1.3.tgz not found!!!download now...
+UnixBench/
+UnixBench/README
+UnixBench/src/
+UnixBench/src/looper.c
+UnixBench/src/time-polling.c
+UnixBench/src/arith.c
+UnixBench/src/hanoi.c
+UnixBench/src/timeit.c
+UnixBench/src/dhry_1.c
+UnixBench/src/dhry.h
+UnixBench/src/dhry_2.c
+UnixBench/src/fstime.c
+UnixBench/src/syscall.c
+UnixBench/src/execl.c
+UnixBench/src/context1.c
+UnixBench/src/whets.c
+UnixBench/src/dummy.c
+UnixBench/src/big.c
+UnixBench/src/spawn.c
+UnixBench/src/pipe.c
+UnixBench/src/ubgears.c
+UnixBench/pgms/
+UnixBench/pgms/index.base
+UnixBench/pgms/gfx-x11
+UnixBench/pgms/multi.sh
+UnixBench/pgms/unixbench.logo
+UnixBench/pgms/tst.sh
+UnixBench/WRITING_TESTS
+UnixBench/.project
+UnixBench/Run
+UnixBench/testdir/
+UnixBench/testdir/sort.src
+UnixBench/testdir/cctest.c
+UnixBench/testdir/dc.dat
+UnixBench/testdir/large.txt
+UnixBench/.cproject
+UnixBench/results/
+UnixBench/Makefile
+UnixBench/USAGE
+Checking distribution of files
+./pgms  exists
+./src  exists
+./testdir  exists
+./tmp  exists
+./results  exists
+make all
+make[1]: Entering directory '/opt/unixbench/UnixBench'
+Checking distribution of files
+./pgms  exists
+./src  exists
+./testdir  exists
+./tmp  exists
+./results  exists
+make[1]: Leaving directory '/opt/unixbench/UnixBench'
+
+   #    #  #    #  #  #    #          #####   ######  #    #   ####   #    #
+   #    #  ##   #  #   #  #           #    #  #       ##   #  #    #  #    #
+   #    #  # #  #  #    ##            #####   #####   # #  #  #       ######
+   #    #  #  # #  #    ##            #    #  #       #  # #  #       #    #
+   #    #  #   ##  #   #  #           #    #  #       #   ##  #    #  #    #
+    ####   #    #  #  #    #          #####   ######  #    #   ####   #    #
+
+   Version 5.1.3                      Based on the Byte Magazine Unix Benchmark
+
+   Multi-CPU version                  Version 5 revisions by Ian Smith,
+                                      Sunnyvale, CA, USA
+   January 13, 2011                   johantheghost at yahoo period com
+
+
+1 x Dhrystone 2 using register variables  1 2 3 4 5 6 7 8 9 10
+
+1 x Double-Precision Whetstone  1 2 3 4 5 6 7 8 9 10
+
+1 x Execl Throughput  1 2 3
+
+1 x File Copy 1024 bufsize 2000 maxblocks  1 2 3
+
+1 x File Copy 256 bufsize 500 maxblocks  1 2 3
+
+1 x File Copy 4096 bufsize 8000 maxblocks  1 2 3
+
+1 x Pipe Throughput  1 2 3 4 5 6 7 8 9 10
+
+1 x Pipe-based Context Switching  1 2 3 4 5 6 7 8 9 10
+
+1 x Process Creation  1 2 3
+
+1 x System Call Overhead  1 2 3 4 5 6 7 8 9 10
+
+1 x Shell Scripts (1 concurrent)  1 2 3
+
+1 x Shell Scripts (8 concurrent)  1 2 3
+
+========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: bench: GNU/Linux
+   OS: GNU/Linux -- 4.15.0-36-generic -- #39-Ubuntu SMP Mon Sep 24 16:19:09 UTC 2018
+   Machine: x86_64 (x86_64)
+   Language: en_US.utf8 (charmap="UTF-8", collate="UTF-8")
+   CPU 0: Virtual CPU a7769a6388d5 (4788.9 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   21:29:32 up  2:54,  1 user,  load average: 0.43, 0.16, 0.06; runlevel 5
+
+------------------------------------------------------------------------
+Benchmark Run: Thu Dec 20 2018 21:29:32 - 21:57:39
+1 CPU in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables       27655007.5 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     4658.0 MWIPS (10.0 s, 7 samples)
+Execl Throughput                               3180.8 lps   (29.6 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        529582.3 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          155673.3 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       1222952.9 KBps  (30.0 s, 2 samples)
+Pipe Throughput                              901116.4 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 179863.5 lps   (10.0 s, 7 samples)
+Process Creation                               8165.8 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   6152.3 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    793.3 lpm   (60.1 s, 2 samples)
+System Call Overhead                         666024.4 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   27655007.5   2369.8
+Double-Precision Whetstone                       55.0       4658.0    846.9
+Execl Throughput                                 43.0       3180.8    739.7
+File Copy 1024 bufsize 2000 maxblocks          3960.0     529582.3   1337.3
+File Copy 256 bufsize 500 maxblocks            1655.0     155673.3    940.6
+File Copy 4096 bufsize 8000 maxblocks          5800.0    1222952.9   2108.5
+Pipe Throughput                               12440.0     901116.4    724.4
+Pipe-based Context Switching                   4000.0     179863.5    449.7
+Process Creation                                126.0       8165.8    648.1
+Shell Scripts (1 concurrent)                     42.4       6152.3   1451.0
+Shell Scripts (8 concurrent)                      6.0        793.3   1322.2
+System Call Overhead                          15000.0     666024.4    444.0
+                                                                   ========
+System Benchmarks Index Score                                         971.6
+
+
+
+======= Script description and score comparison completed! ======= 
+
+
+                  test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average 
+127.0.0.53        1 ms    1 ms    1 ms    1 ms    2 ms    217 ms  1 ms    1 ms    1 ms    2 ms      22.80
+cloudflare        1 ms    1 ms    1 ms    38 ms   1 ms    1 ms    1 ms    1 ms    1 ms    1 ms      4.70
+level3            1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    2 ms      1.10
+google            20 ms   19 ms   1 ms    21 ms   27 ms   158 ms  1 ms    21 ms   19 ms   28 ms     31.50
+quad9             1 ms    3 ms    1 ms    1 ms    1 ms    2 ms    1 ms    1 ms    1 ms    7 ms      1.90
+freenom           52 ms   151 ms  53 ms   150 ms  106 ms  230 ms  148 ms  57 ms   141 ms  144 ms    123.20
+opendns           37 ms   1 ms    1 ms    19 ms   1 ms    169 ms  1 ms    19 ms   19 ms   1 ms      26.80
+norton            1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    2 ms      1.10
+cleanbrowsing     1 ms    26 ms   1 ms    1 ms    1 ms    75 ms   1 ms    19 ms   1 ms    2 ms      12.80
+yandex            177 ms  176 ms  177 ms  178 ms  179 ms  181 ms  176 ms  211 ms  193 ms  232 ms    188.00
+adguard           1 ms    1 ms    1 ms    1 ms    28 ms   76 ms   1 ms    1 ms    1 ms    1 ms      11.20
+neustar           1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms      1.00
+comodo            20 ms   22 ms   20 ms   20 ms   20 ms   20 ms   20 ms   66 ms   20 ms   22 ms     25.00
