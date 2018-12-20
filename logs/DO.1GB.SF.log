@@ -1,0 +1,793 @@
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 60058 files and directories currently installed.)
+Preparing to unpack .../0-openssl_1.1.0g-2ubuntu4.3_amd64.deb ...
+Unpacking openssl (1.1.0g-2ubuntu4.3) over (1.1.0g-2ubuntu4.1) ...
+Selecting previously unselected package libc-dev-bin.
+Preparing to unpack .../1-libc-dev-bin_2.27-3ubuntu1_amd64.deb ...
+Unpacking libc-dev-bin (2.27-3ubuntu1) ...
+Selecting previously unselected package linux-libc-dev:amd64.
+Preparing to unpack .../2-linux-libc-dev_4.15.0-43.46_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (4.15.0-43.46) ...
+Selecting previously unselected package libc6-dev:amd64.
+Preparing to unpack .../3-libc6-dev_2.27-3ubuntu1_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.27-3ubuntu1) ...
+Selecting previously unselected package manpages-dev.
+Preparing to unpack .../4-manpages-dev_4.15-1_all.deb ...
+Unpacking manpages-dev (4.15-1) ...
+Selecting previously unselected package ioping.
+Preparing to unpack .../5-ioping_1.0-2_amd64.deb ...
+Unpacking ioping (1.0-2) ...
+Setting up linux-libc-dev:amd64 (4.15.0-43.46) ...
+Setting up openssl (1.1.0g-2ubuntu4.3) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Setting up libc-dev-bin (2.27-3ubuntu1) ...
+Setting up manpages-dev (4.15-1) ...
+Setting up libc6-dev:amd64 (2.27-3ubuntu1) ...
+Setting up ioping (1.0-2) ...
+Distro Information
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=18.04
+DISTRIB_CODENAME=bionic
+DISTRIB_DESCRIPTION="Ubuntu 18.04.1 LTS"
+NAME="Ubuntu"
+VERSION="18.04.1 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.1 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.1 LTS
+Release:	18.04
+Codename:	bionic
+
+Linux ubuntu-s-1vcpu-1gb-sfo2-01 4.15.0-42-generic #45-Ubuntu SMP Thu Nov 15 19:32:57 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+
+System Informationprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 79
+model name	: Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+stepping	: 1
+microcode	: 0x1
+cpu MHz		: 2199.998
+cache size	: 30720 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl cpuid pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx smap xsaveopt
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 4399.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+
+
+lshw
+ubuntu-s-1vcpu-1gb-sfo2-01
+    description: Computer
+    product: Droplet
+    vendor: DigitalOcean
+    version: 20171212
+    serial: 124696639
+    width: 64 bits
+    capabilities: smbios-2.4 dmi-2.4 vsyscall32
+    configuration: boot=normal family=DigitalOcean_Droplet uuid=305AF8AF-D1FA-43D7-AD45-54A0BF353177
+  *-core
+       description: Motherboard
+       physical id: 0
+     *-firmware
+          description: BIOS
+          vendor: DigitalOcean
+          physical id: 0
+          version: 20171212
+          date: 12/12/2017
+          size: 96KiB
+     *-cpu
+          description: CPU
+          product: Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+          vendor: Intel Corp.
+          physical id: 401
+          bus info: cpu@0
+          slot: CPU 1
+          size: 2GHz
+          capacity: 2GHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc arch_perfmon rep_good nopl cpuid pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx smap xsaveopt
+     *-memory
+          description: System Memory
+          physical id: 1000
+          size: 1GiB
+          capacity: 1GiB
+          capabilities: ecc
+          configuration: errordetection=multi-bit-ecc
+        *-bank
+             description: DIMM RAM
+             physical id: 0
+             slot: DIMM 0
+             size: 1GiB
+             width: 64 bits
+     *-pci
+          description: Host bridge
+          product: 440FX - 82441FX PMC [Natoma]
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 02
+          width: 32 bits
+          clock: 33MHz
+        *-isa
+             description: ISA bridge
+             product: 82371SB PIIX3 ISA [Natoma/Triton II]
+             vendor: Intel Corporation
+             physical id: 1
+             bus info: pci@0000:00:01.0
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa
+             configuration: latency=0
+        *-ide
+             description: IDE interface
+             product: 82371SB PIIX3 IDE [Natoma/Triton II]
+             vendor: Intel Corporation
+             physical id: 1.1
+             bus info: pci@0000:00:01.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: ide bus_master
+             configuration: driver=ata_piix latency=0
+             resources: irq:0 ioport:1f0(size=8) ioport:3f6 ioport:170(size=8) ioport:376 ioport:c100(size=16)
+        *-usb
+             description: USB controller
+             product: 82371SB PIIX3 USB [Natoma/Triton II]
+             vendor: Intel Corporation
+             physical id: 1.2
+             bus info: pci@0000:00:01.2
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: uhci bus_master
+             configuration: driver=uhci_hcd latency=0
+             resources: irq:11 ioport:c080(size=32)
+           *-usbhost
+                product: UHCI Host Controller
+                vendor: Linux 4.15.0-42-generic uhci_hcd
+                physical id: 1
+                bus info: usb@1
+                logical name: usb1
+                version: 4.15
+                capabilities: usb-1.10
+                configuration: driver=hub slots=2 speed=12Mbit/s
+        *-bridge UNCLAIMED
+             description: Bridge
+             product: 82371AB/EB/MB PIIX4 ACPI
+             vendor: Intel Corporation
+             physical id: 1.3
+             bus info: pci@0000:00:01.3
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: bridge
+             configuration: latency=0
+        *-display UNCLAIMED
+             description: VGA compatible controller
+             product: QXL paravirtual graphic card
+             vendor: Red Hat, Inc.
+             physical id: 2
+             bus info: pci@0000:00:02.0
+             version: 04
+             width: 32 bits
+             clock: 33MHz
+             capabilities: vga_controller
+             configuration: latency=0
+             resources: memory:f8000000-fbffffff memory:fc000000-fcffffff memory:fd050000-fd051fff ioport:c0a0(size=32) memory:c0000-dffff
+        *-network
+             description: Ethernet controller
+             product: Virtio network device
+             vendor: Red Hat, Inc
+             physical id: 3
+             bus info: pci@0000:00:03.0
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: msix bus_master cap_list rom
+             configuration: driver=virtio-pci latency=0
+             resources: irq:10 ioport:c0c0(size=32) memory:fd052000-fd052fff memory:fd000000-fd03ffff
+           *-virtio0
+                description: Ethernet interface
+                physical id: 0
+                bus info: virtio@0
+                logical name: eth0
+                serial: 36:9d:c6:4e:78:69
+                capabilities: ethernet physical
+                configuration: autonegotiation=off broadcast=yes driver=virtio_net driverversion=1.0.0 ip=159.89.129.8 link=yes multicast=yes
+        *-scsi:0
+             description: SCSI storage controller
+             product: Virtio SCSI
+             vendor: Red Hat, Inc
+             physical id: 4
+             bus info: pci@0000:00:04.0
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: scsi msix bus_master cap_list
+             configuration: driver=virtio-pci latency=0
+             resources: irq:11 ioport:c000(size=64) memory:fd053000-fd053fff
+           *-virtio1 UNCLAIMED
+                description: Virtual I/O device
+                physical id: 0
+                bus info: virtio@1
+                configuration: driver=virtio_scsi
+        *-scsi:1
+             description: SCSI storage controller
+             product: Virtio block device
+             vendor: Red Hat, Inc
+             physical id: 5
+             bus info: pci@0000:00:05.0
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: scsi msix bus_master cap_list
+             configuration: driver=virtio-pci latency=0
+             resources: irq:10 ioport:c040(size=64) memory:fd054000-fd054fff
+           *-virtio2
+                description: Virtual I/O device
+                physical id: 0
+                bus info: virtio@2
+                logical name: /dev/vda
+                size: 25GiB (26GB)
+                capabilities: gpt-1.00 partitioned partitioned:gpt
+                configuration: driver=virtio_blk guid=858a66b1-0062-4f12-a9a8-b52406b9c71d logicalsectorsize=512 sectorsize=512
+              *-volume:0
+                   description: EXT4 volume
+                   vendor: Linux
+                   physical id: 1
+                   bus info: virtio@2,1
+                   logical name: /dev/vda1
+                   logical name: /
+                   version: 1.0
+                   serial: b9df59e6-c806-4851-befa-12402bca5828
+                   size: 2140MiB
+                   capacity: 24GiB
+                   capabilities: journaled extended_attributes large_files huge_files dir_nlink recover 64bit extents ext4 ext2 initialized
+                   configuration: created=2018-12-06 16:13:50 filesystem=ext4 label=cloudimg-rootfs lastmountpoint=/tmp/tPcEorp0Dg modified=2018-12-20 22:14:17 mount.fstype=ext4 mount.options=rw,relatime,data=ordered mounted=2018-12-20 22:14:35 state=mounted
+              *-volume:1
+                   description: BIOS Boot partition
+                   vendor: EFI
+                   physical id: e
+                   bus info: virtio@2,14
+                   logical name: /dev/vda14
+                   serial: 7585d7a0-2737-4669-8f1d-8b397541da2e
+                   capacity: 4095KiB
+                   capabilities: nofs
+              *-volume:2
+                   description: Windows FAT volume
+                   vendor: mkfs.fat
+                   physical id: f
+                   bus info: virtio@2,15
+                   logical name: /dev/vda15
+                   logical name: /boot/efi
+                   version: FAT32
+                   serial: ad1e-7a0c
+                   size: 105MiB
+                   capacity: 105MiB
+                   capabilities: fat initialized
+                   configuration: FATs=2 filesystem=fat label=UEFI mount.fstype=vfat mount.options=rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro state=mounted
+        *-generic
+             description: Unclassified device
+             product: Virtio memory balloon
+             vendor: Red Hat, Inc
+             physical id: 6
+             bus info: pci@0000:00:06.0
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: bus_master
+             configuration: driver=virtio-pci latency=0
+             resources: irq:11 ioport:c0e0(size=32)
+           *-virtio3 UNCLAIMED
+                description: Virtual I/O device
+                physical id: 0
+                bus info: virtio@3
+                configuration: driver=virtio_balloon
+
+lshw -short
+H/W path      Device      Class      Description
+================================================
+                          system     Droplet
+/0                        bus        Motherboard
+/0/0                      memory     96KiB BIOS
+/0/401                    processor  Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+/0/1000                   memory     1GiB System Memory
+/0/1000/0                 memory     1GiB DIMM RAM
+/0/100                    bridge     440FX - 82441FX PMC [Natoma]
+/0/100/1                  bridge     82371SB PIIX3 ISA [Natoma/Triton II]
+/0/100/1.1                storage    82371SB PIIX3 IDE [Natoma/Triton II]
+/0/100/1.2                bus        82371SB PIIX3 USB [Natoma/Triton II]
+/0/100/1.2/1  usb1        bus        UHCI Host Controller
+/0/100/1.3                bridge     82371AB/EB/MB PIIX4 ACPI
+/0/100/2                  display    QXL paravirtual graphic card
+/0/100/3                  network    Virtio network device
+/0/100/3/0    eth0        network    Ethernet interface
+/0/100/4                  storage    Virtio SCSI
+/0/100/4/0                generic    Virtual I/O device
+/0/100/5                  storage    Virtio block device
+/0/100/5/0    /dev/vda    disk       26GB Virtual I/O device
+/0/100/5/0/1  /dev/vda1   volume     24GiB EXT4 volume
+/0/100/5/0/e  /dev/vda14  volume     4095KiB BIOS Boot partition
+/0/100/5/0/f  /dev/vda15  volume     105MiB Windows FAT volume
+/0/100/6                  generic    Virtio memory balloon
+/0/100/6/0                generic    Virtual I/O device
+
+
+Benchmarks[3J[H[2J----------------------------------------------------------------------
+CPU model            : [0;36mIntel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz[0m
+Number of cores      : [0;36m1[0m
+CPU frequency        : [0;36m2199.998 MHz[0m
+Total size of Disk   : [0;36m25.1 GB (1.2 GB Used)[0m
+Total amount of Mem  : [0;36m985 MB (87 MB Used)[0m
+Total amount of Swap : [0;36m0 MB (0 MB Used)[0m
+System uptime        : [0;36m0 days, 0 hour 3 min[0m
+Load average         : [0;36m0.86, 0.41, 0.16[0m
+OS                   : [0;36mUbuntu 18.04.1 LTS[0m
+Arch                 : [0;36mx86_64 (64 Bit)[0m
+Kernel               : [0;36m4.15.0-42-generic[0m
+----------------------------------------------------------------------
+I/O speed(1st run)   : [0;33m34.6 MB/s[0m
+I/O speed(2nd run)   : [0;33m32.1 MB/s[0m
+I/O speed(3rd run)   : [0;33m33.2 MB/s[0m
+Average I/O speed    : [0;33m33.3 MB/s[0m
+----------------------------------------------------------------------
+Node Name                       IPv4 address            Download Speed
+[0;33mCacheFly                        [0;32m205.234.175.175         [0;31m152MB/s       [0m
+[0;33mLinode, Tokyo, JP               [0;32m106.187.96.148          [0;31m19.3MB/s      [0m
+[0;33mLinode, Singapore, SG           [0;32m139.162.23.4            [0;31m12.4MB/s      [0m
+[0;33mLinode, London, UK              [0;32m176.58.107.39           [0;31m15.8MB/s      [0m
+[0;33mLinode, Frankfurt, DE           [0;32m139.162.130.8           [0;31m10.9MB/s      [0m
+[0;33mLinode, Fremont, CA             [0;32m50.116.14.9             [0;31m140MB/s       [0m
+[0;33mSoftlayer, Dallas, TX           [0;32m173.192.68.18           [0;31m38.9MB/s      [0m
+[0;33mSoftlayer, Seattle, WA          [0;32m67.228.112.250          [0;31m61.4MB/s      [0m
+[0;33mSoftlayer, Frankfurt, DE        [0;32m159.122.69.4            [0;31m6.74MB/s      [0m
+[0;33mSoftlayer, Singapore, SG        [0;32m119.81.28.170           [0;31m10.3MB/s      [0m
+[0;33mSoftlayer, HongKong, CN         [0;32m119.81.130.170          [0;31m10.7MB/s      [0m
+----------------------------------------------------------------------
+-------------------------------------------------
+ nench.sh v2018.04.14 -- https://git.io/nench.sh
+ benchmark timestamp:    2018-12-20 22:20:30 UTC
+-------------------------------------------------
+
+Processor:    Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+CPU cores:    1
+Frequency:    2199.998 MHz
+RAM:          985M
+Swap:         -
+Kernel:       Linux 4.15.0-42-generic x86_64
+
+Disks:
+vda     25G  HDD
+
+CPU: SHA256-hashing 500 MB
+    CPU: bzip2-compressing 500 MB
+    CPU: AES-encrypting 500 MB
+    
+ioping: seek rate
+    min/avg/max/mdev = 96.6 us / 213.1 us / 221.0 ms / 2.50 ms
+ioping: sequential read speed
+    generated 5.88 k requests in 5.00 s, 1.44 GiB, 1.18 k iops, 293.9 MiB/s
+
+dd: sequential write speed
+    1st run:    40.82 MiB/s
+    2nd run:    27.37 MiB/s
+    3rd run:    28.80 MiB/s
+    average:    32.33 MiB/s
+
+IPv4 speedtests
+    your IPv4:    159.89.129.xxxx
+
+    Cachefly CDN:         96.15 MiB/s
+    Leaseweb (NL):        15.97 MiB/s
+    Softlayer DAL (US):   36.29 MiB/s
+    Online.net (FR):      12.03 MiB/s
+    OVH BHS (CA):         5.03 MiB/s
+
+No IPv6 connectivity detected
+-------------------------------------------------
+
+Benching I/O ... OK
+Benching CPU. Bzipping 25MB file ... OK
+Benching inbound network. Downloading 100MB file ... OK
+Share at https://github.com/mgutz/vpsbench/wiki/VPS-Hosts
+
+
+_12/20/2018 - VMPLAN - DATACENTER - OS - AUTHOR_
+```
+CPU model:  Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+Number of cores: 1
+CPU frequency:  2199.998 MHz
+Total amount of RAM: 985 MB
+Total amount of swap:  MB
+System uptime:   9 min,       
+I/O speed:  32.3 MB/s
+Bzip 25MB: 5.06s
+Download 100MB file: 150MB/s
+```
+
+
+Hit:1 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Hit:2 http://sfo1.mirrors.digitalocean.com/ubuntu bionic InRelease
+Hit:3 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates InRelease
+Hit:4 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-backports InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+time is already the newest version (1.7-25.1build1).
+perl is already the newest version (5.26.1-6ubuntu0.3).
+The following package was automatically installed and is no longer required:
+  grub-pc-bin
+Use 'apt autoremove' to remove it.
+The following additional packages will be installed:
+  autotools-dev binutils binutils-common binutils-x86-64-linux-gnu cpp cpp-7
+  gcc-7 gcc-7-base libasan4 libatomic1 libbinutils libcc1-0 libcilkrts5
+  libgcc-7-dev libgomp1 libisl19 libitm1 liblsan0 libmpc3 libmpx2 libquadmath0
+  libtsan0 libubsan0 m4
+Suggested packages:
+  autoconf-archive gnu-standards autoconf-doc libtool gettext binutils-doc
+  cpp-doc gcc-7-locales gcc-multilib flex bison gdb gcc-doc gcc-7-multilib
+  gcc-7-doc libgcc1-dbg libgomp1-dbg libitm1-dbg libatomic1-dbg libasan4-dbg
+  liblsan0-dbg libtsan0-dbg libubsan0-dbg libcilkrts5-dbg libmpx2-dbg
+  libquadmath0-dbg m4-doc make-doc
+The following NEW packages will be installed:
+  autoconf automake autotools-dev binutils binutils-common
+  binutils-x86-64-linux-gnu cpp cpp-7 gcc gcc-7 gcc-7-base libasan4 libatomic1
+  libbinutils libcc1-0 libcilkrts5 libgcc-7-dev libgomp1 libisl19 libitm1
+  liblsan0 libmpc3 libmpx2 libquadmath0 libtsan0 libubsan0 m4 make
+0 upgraded, 28 newly installed, 0 to remove and 18 not upgraded.
+Need to get 22.2 MB of archives.
+After this operation, 90.2 MB of additional disk space will be used.
+Get:1 http://sfo1.mirrors.digitalocean.com/ubuntu bionic/main amd64 m4 amd64 1.4.18-1 [197 kB]
+Get:2 http://sfo1.mirrors.digitalocean.com/ubuntu bionic/main amd64 autoconf all 2.69-11 [322 kB]
+Get:3 http://sfo1.mirrors.digitalocean.com/ubuntu bionic/main amd64 autotools-dev all 20180224.1 [39.6 kB]
+Get:4 http://sfo1.mirrors.digitalocean.com/ubuntu bionic/main amd64 automake all 1:1.15.1-3ubuntu2 [509 kB]
+Get:5 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 binutils-common amd64 2.30-21ubuntu1~18.04 [193 kB]
+Get:6 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libbinutils amd64 2.30-21ubuntu1~18.04 [502 kB]
+Get:7 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 binutils-x86-64-linux-gnu amd64 2.30-21ubuntu1~18.04 [1855 kB]
+Get:8 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 binutils amd64 2.30-21ubuntu1~18.04 [3392 B]
+Get:9 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 gcc-7-base amd64 7.3.0-27ubuntu1~18.04 [18.9 kB]
+Get:10 http://sfo1.mirrors.digitalocean.com/ubuntu bionic/main amd64 libisl19 amd64 0.19-1 [551 kB]
+Get:11 http://sfo1.mirrors.digitalocean.com/ubuntu bionic/main amd64 libmpc3 amd64 1.1.0-1 [40.8 kB]
+Get:12 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 cpp-7 amd64 7.3.0-27ubuntu1~18.04 [6738 kB]
+Get:13 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 cpp amd64 4:7.3.0-3ubuntu2.1 [27.6 kB]
+Get:14 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libcc1-0 amd64 8.2.0-1ubuntu2~18.04 [39.5 kB]
+Get:15 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libgomp1 amd64 8.2.0-1ubuntu2~18.04 [76.4 kB]
+Get:16 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libitm1 amd64 8.2.0-1ubuntu2~18.04 [28.1 kB]
+Get:17 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libatomic1 amd64 8.2.0-1ubuntu2~18.04 [9064 B]
+Get:18 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libasan4 amd64 7.3.0-27ubuntu1~18.04 [358 kB]
+Get:19 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 liblsan0 amd64 8.2.0-1ubuntu2~18.04 [132 kB]
+Get:20 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libtsan0 amd64 8.2.0-1ubuntu2~18.04 [288 kB]
+Get:21 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libubsan0 amd64 7.3.0-27ubuntu1~18.04 [126 kB]
+Get:22 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libcilkrts5 amd64 7.3.0-27ubuntu1~18.04 [42.5 kB]
+Get:23 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libmpx2 amd64 8.2.0-1ubuntu2~18.04 [11.7 kB]
+Get:24 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libquadmath0 amd64 8.2.0-1ubuntu2~18.04 [133 kB]
+Get:25 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 libgcc-7-dev amd64 7.3.0-27ubuntu1~18.04 [2380 kB]
+Get:26 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 gcc-7 amd64 7.3.0-27ubuntu1~18.04 [7455 kB]
+Get:27 http://sfo1.mirrors.digitalocean.com/ubuntu bionic-updates/main amd64 gcc amd64 4:7.3.0-3ubuntu2.1 [5184 B]
+Get:28 http://sfo1.mirrors.digitalocean.com/ubuntu bionic/main amd64 make amd64 4.1-9.1ubuntu1 [154 kB]
+Fetched 22.2 MB in 5s (4744 kB/s)
+Selecting previously unselected package m4.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 63645 files and directories currently installed.)
+Preparing to unpack .../00-m4_1.4.18-1_amd64.deb ...
+Unpacking m4 (1.4.18-1) ...
+Selecting previously unselected package autoconf.
+Preparing to unpack .../01-autoconf_2.69-11_all.deb ...
+Unpacking autoconf (2.69-11) ...
+Selecting previously unselected package autotools-dev.
+Preparing to unpack .../02-autotools-dev_20180224.1_all.deb ...
+Unpacking autotools-dev (20180224.1) ...
+Selecting previously unselected package automake.
+Preparing to unpack .../03-automake_1%3a1.15.1-3ubuntu2_all.deb ...
+Unpacking automake (1:1.15.1-3ubuntu2) ...
+Selecting previously unselected package binutils-common:amd64.
+Preparing to unpack .../04-binutils-common_2.30-21ubuntu1~18.04_amd64.deb ...
+Unpacking binutils-common:amd64 (2.30-21ubuntu1~18.04) ...
+Selecting previously unselected package libbinutils:amd64.
+Preparing to unpack .../05-libbinutils_2.30-21ubuntu1~18.04_amd64.deb ...
+Unpacking libbinutils:amd64 (2.30-21ubuntu1~18.04) ...
+Selecting previously unselected package binutils-x86-64-linux-gnu.
+Preparing to unpack .../06-binutils-x86-64-linux-gnu_2.30-21ubuntu1~18.04_amd64.deb ...
+Unpacking binutils-x86-64-linux-gnu (2.30-21ubuntu1~18.04) ...
+Selecting previously unselected package binutils.
+Preparing to unpack .../07-binutils_2.30-21ubuntu1~18.04_amd64.deb ...
+Unpacking binutils (2.30-21ubuntu1~18.04) ...
+Selecting previously unselected package gcc-7-base:amd64.
+Preparing to unpack .../08-gcc-7-base_7.3.0-27ubuntu1~18.04_amd64.deb ...
+Unpacking gcc-7-base:amd64 (7.3.0-27ubuntu1~18.04) ...
+Selecting previously unselected package libisl19:amd64.
+Preparing to unpack .../09-libisl19_0.19-1_amd64.deb ...
+Unpacking libisl19:amd64 (0.19-1) ...
+Selecting previously unselected package libmpc3:amd64.
+Preparing to unpack .../10-libmpc3_1.1.0-1_amd64.deb ...
+Unpacking libmpc3:amd64 (1.1.0-1) ...
+Selecting previously unselected package cpp-7.
+Preparing to unpack .../11-cpp-7_7.3.0-27ubuntu1~18.04_amd64.deb ...
+Unpacking cpp-7 (7.3.0-27ubuntu1~18.04) ...
+Selecting previously unselected package cpp.
+Preparing to unpack .../12-cpp_4%3a7.3.0-3ubuntu2.1_amd64.deb ...
+Unpacking cpp (4:7.3.0-3ubuntu2.1) ...
+Selecting previously unselected package libcc1-0:amd64.
+Preparing to unpack .../13-libcc1-0_8.2.0-1ubuntu2~18.04_amd64.deb ...
+Unpacking libcc1-0:amd64 (8.2.0-1ubuntu2~18.04) ...
+Selecting previously unselected package libgomp1:amd64.
+Preparing to unpack .../14-libgomp1_8.2.0-1ubuntu2~18.04_amd64.deb ...
+Unpacking libgomp1:amd64 (8.2.0-1ubuntu2~18.04) ...
+Selecting previously unselected package libitm1:amd64.
+Preparing to unpack .../15-libitm1_8.2.0-1ubuntu2~18.04_amd64.deb ...
+Unpacking libitm1:amd64 (8.2.0-1ubuntu2~18.04) ...
+Selecting previously unselected package libatomic1:amd64.
+Preparing to unpack .../16-libatomic1_8.2.0-1ubuntu2~18.04_amd64.deb ...
+Unpacking libatomic1:amd64 (8.2.0-1ubuntu2~18.04) ...
+Selecting previously unselected package libasan4:amd64.
+Preparing to unpack .../17-libasan4_7.3.0-27ubuntu1~18.04_amd64.deb ...
+Unpacking libasan4:amd64 (7.3.0-27ubuntu1~18.04) ...
+Selecting previously unselected package liblsan0:amd64.
+Preparing to unpack .../18-liblsan0_8.2.0-1ubuntu2~18.04_amd64.deb ...
+Unpacking liblsan0:amd64 (8.2.0-1ubuntu2~18.04) ...
+Selecting previously unselected package libtsan0:amd64.
+Preparing to unpack .../19-libtsan0_8.2.0-1ubuntu2~18.04_amd64.deb ...
+Unpacking libtsan0:amd64 (8.2.0-1ubuntu2~18.04) ...
+Selecting previously unselected package libubsan0:amd64.
+Preparing to unpack .../20-libubsan0_7.3.0-27ubuntu1~18.04_amd64.deb ...
+Unpacking libubsan0:amd64 (7.3.0-27ubuntu1~18.04) ...
+Selecting previously unselected package libcilkrts5:amd64.
+Preparing to unpack .../21-libcilkrts5_7.3.0-27ubuntu1~18.04_amd64.deb ...
+Unpacking libcilkrts5:amd64 (7.3.0-27ubuntu1~18.04) ...
+Selecting previously unselected package libmpx2:amd64.
+Preparing to unpack .../22-libmpx2_8.2.0-1ubuntu2~18.04_amd64.deb ...
+Unpacking libmpx2:amd64 (8.2.0-1ubuntu2~18.04) ...
+Selecting previously unselected package libquadmath0:amd64.
+Preparing to unpack .../23-libquadmath0_8.2.0-1ubuntu2~18.04_amd64.deb ...
+Unpacking libquadmath0:amd64 (8.2.0-1ubuntu2~18.04) ...
+Selecting previously unselected package libgcc-7-dev:amd64.
+Preparing to unpack .../24-libgcc-7-dev_7.3.0-27ubuntu1~18.04_amd64.deb ...
+Unpacking libgcc-7-dev:amd64 (7.3.0-27ubuntu1~18.04) ...
+Selecting previously unselected package gcc-7.
+Preparing to unpack .../25-gcc-7_7.3.0-27ubuntu1~18.04_amd64.deb ...
+Unpacking gcc-7 (7.3.0-27ubuntu1~18.04) ...
+Selecting previously unselected package gcc.
+Preparing to unpack .../26-gcc_4%3a7.3.0-3ubuntu2.1_amd64.deb ...
+Unpacking gcc (4:7.3.0-3ubuntu2.1) ...
+Selecting previously unselected package make.
+Preparing to unpack .../27-make_4.1-9.1ubuntu1_amd64.deb ...
+Unpacking make (4.1-9.1ubuntu1) ...
+Setting up libquadmath0:amd64 (8.2.0-1ubuntu2~18.04) ...
+Setting up libgomp1:amd64 (8.2.0-1ubuntu2~18.04) ...
+Setting up libatomic1:amd64 (8.2.0-1ubuntu2~18.04) ...
+Setting up libcc1-0:amd64 (8.2.0-1ubuntu2~18.04) ...
+Setting up make (4.1-9.1ubuntu1) ...
+Processing triggers for install-info (6.5.0.dfsg.1-2) ...
+Setting up libtsan0:amd64 (8.2.0-1ubuntu2~18.04) ...
+Setting up m4 (1.4.18-1) ...
+Setting up liblsan0:amd64 (8.2.0-1ubuntu2~18.04) ...
+Setting up gcc-7-base:amd64 (7.3.0-27ubuntu1~18.04) ...
+Setting up binutils-common:amd64 (2.30-21ubuntu1~18.04) ...
+Setting up libmpx2:amd64 (8.2.0-1ubuntu2~18.04) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up autotools-dev (20180224.1) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Setting up libmpc3:amd64 (1.1.0-1) ...
+Setting up libitm1:amd64 (8.2.0-1ubuntu2~18.04) ...
+Setting up libisl19:amd64 (0.19-1) ...
+Setting up libasan4:amd64 (7.3.0-27ubuntu1~18.04) ...
+Setting up libbinutils:amd64 (2.30-21ubuntu1~18.04) ...
+Setting up libcilkrts5:amd64 (7.3.0-27ubuntu1~18.04) ...
+Setting up libubsan0:amd64 (7.3.0-27ubuntu1~18.04) ...
+Setting up autoconf (2.69-11) ...
+Setting up libgcc-7-dev:amd64 (7.3.0-27ubuntu1~18.04) ...
+Setting up cpp-7 (7.3.0-27ubuntu1~18.04) ...
+Setting up automake (1:1.15.1-3ubuntu2) ...
+update-alternatives: using /usr/bin/automake-1.15 to provide /usr/bin/automake (automake) in auto mode
+Setting up binutils-x86-64-linux-gnu (2.30-21ubuntu1~18.04) ...
+Setting up cpp (4:7.3.0-3ubuntu2.1) ...
+Setting up binutils (2.30-21ubuntu1~18.04) ...
+Setting up gcc-7 (7.3.0-27ubuntu1~18.04) ...
+Setting up gcc (4:7.3.0-3ubuntu2.1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+UnixBench5.1.3.tgz not found!!!download now...
+UnixBench/
+UnixBench/README
+UnixBench/src/
+UnixBench/src/looper.c
+UnixBench/src/time-polling.c
+UnixBench/src/arith.c
+UnixBench/src/hanoi.c
+UnixBench/src/timeit.c
+UnixBench/src/dhry_1.c
+UnixBench/src/dhry.h
+UnixBench/src/dhry_2.c
+UnixBench/src/fstime.c
+UnixBench/src/syscall.c
+UnixBench/src/execl.c
+UnixBench/src/context1.c
+UnixBench/src/whets.c
+UnixBench/src/dummy.c
+UnixBench/src/big.c
+UnixBench/src/spawn.c
+UnixBench/src/pipe.c
+UnixBench/src/ubgears.c
+UnixBench/pgms/
+UnixBench/pgms/index.base
+UnixBench/pgms/gfx-x11
+UnixBench/pgms/multi.sh
+UnixBench/pgms/unixbench.logo
+UnixBench/pgms/tst.sh
+UnixBench/WRITING_TESTS
+UnixBench/.project
+UnixBench/Run
+UnixBench/testdir/
+UnixBench/testdir/sort.src
+UnixBench/testdir/cctest.c
+UnixBench/testdir/dc.dat
+UnixBench/testdir/large.txt
+UnixBench/.cproject
+UnixBench/results/
+UnixBench/Makefile
+UnixBench/USAGE
+Checking distribution of files
+./pgms  exists
+./src  exists
+./testdir  exists
+./results  exists
+gcc -o ./pgms/arithoh -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Darithoh ./src/arith.c
+gcc -o ./pgms/register -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum='register int' ./src/arith.c
+gcc -o ./pgms/short -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum=short ./src/arith.c
+gcc -o ./pgms/int -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum=int ./src/arith.c
+gcc -o ./pgms/long -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum=long ./src/arith.c
+gcc -o ./pgms/float -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum=float ./src/arith.c
+gcc -o ./pgms/double -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum=double ./src/arith.c
+gcc -o ./pgms/hanoi -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/hanoi.c
+gcc -o ./pgms/syscall -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/syscall.c
+gcc -o ./pgms/context1 -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/context1.c
+gcc -o ./pgms/pipe -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/pipe.c
+gcc -o ./pgms/spawn -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/spawn.c
+gcc -o ./pgms/execl -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/execl.c
+cd ./src; gcc -c -DTIME -Wall -pedantic -ansi -DHZ= -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall dhry_1.c
+cd ./src; gcc -c -DTIME -Wall -pedantic -ansi -DHZ= -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall dhry_2.c
+gcc -o ./pgms/dhry2 -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/dhry_1.o ./src/dhry_2.o
+cd ./src; rm -f dhry_1.o dhry_2.o
+cd ./src; gcc -c -DTIME -Wall -pedantic -ansi -DREG=register -DHZ= -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall dhry_1.c -o dhry_1_reg.o
+cd ./src; gcc -c -DTIME -Wall -pedantic -ansi -DREG=register -DHZ= -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall dhry_2.c -o dhry_2_reg.o
+gcc -o ./pgms/dhry2reg -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/dhry_1_reg.o ./src/dhry_2_reg.o
+cd ./src; rm -f dhry_1_reg.o dhry_2_reg.o
+gcc -o ./pgms/looper -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/looper.c
+gcc -o ./pgms/fstime -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/fstime.c
+gcc -o ./pgms/whetstone-double -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -DDP -DUNIX -DUNIXBENCH ./src/whets.c -lm
+make all
+make[1]: Entering directory '/opt/unixbench/UnixBench'
+Checking distribution of files
+./pgms  exists
+./src  exists
+./testdir  exists
+./tmp  exists
+./results  exists
+make[1]: Leaving directory '/opt/unixbench/UnixBench'
+
+   #    #  #    #  #  #    #          #####   ######  #    #   ####   #    #
+   #    #  ##   #  #   #  #           #    #  #       ##   #  #    #  #    #
+   #    #  # #  #  #    ##            #####   #####   # #  #  #       ######
+   #    #  #  # #  #    ##            #    #  #       #  # #  #       #    #
+   #    #  #   ##  #   #  #           #    #  #       #   ##  #    #  #    #
+    ####   #    #  #  #    #          #####   ######  #    #   ####   #    #
+
+   Version 5.1.3                      Based on the Byte Magazine Unix Benchmark
+
+   Multi-CPU version                  Version 5 revisions by Ian Smith,
+                                      Sunnyvale, CA, USA
+   January 13, 2011                   johantheghost at yahoo period com
+
+
+1 x Dhrystone 2 using register variables  1 2 3 4 5 6 7 8 9 10
+
+1 x Double-Precision Whetstone  1 2 3 4 5 6 7 8 9 10
+
+1 x Execl Throughput  1 2 3
+
+1 x File Copy 1024 bufsize 2000 maxblocks  1 2 3
+
+1 x File Copy 256 bufsize 500 maxblocks  1 2 3
+
+1 x File Copy 4096 bufsize 8000 maxblocks  1 2 3
+
+1 x Pipe Throughput  1 2 3 4 5 6 7 8 9 10
+
+1 x Pipe-based Context Switching  1 2 3 4 5 6 7 8 9 10
+
+1 x Process Creation  1 2 3
+
+1 x System Call Overhead  1 2 3 4 5 6 7 8 9 10
+
+1 x Shell Scripts (1 concurrent)  1 2 3
+
+1 x Shell Scripts (8 concurrent)  1 2 3
+
+========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: ubuntu-s-1vcpu-1gb-sfo2-01: GNU/Linux
+   OS: GNU/Linux -- 4.15.0-42-generic -- #45-Ubuntu SMP Thu Nov 15 19:32:57 UTC 2018
+   Machine: x86_64 (x86_64)
+   Language: en_US.utf8 (charmap="UTF-8", collate="UTF-8")
+   CPU 0: Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz (4400.0 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   22:24:43 up 10 min,  1 user,  load average: 1.44, 1.22, 0.65; runlevel 5
+
+------------------------------------------------------------------------
+Benchmark Run: Thu Dec 20 2018 22:24:43 - 22:52:56
+1 CPU in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables       29155166.8 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     4672.7 MWIPS (10.0 s, 7 samples)
+Execl Throughput                               3187.8 lps   (30.0 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        613173.7 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          163808.4 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       1682533.4 KBps  (30.0 s, 2 samples)
+Pipe Throughput                              903554.0 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 188018.3 lps   (10.0 s, 7 samples)
+Process Creation                               8802.0 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   6726.3 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    856.7 lpm   (60.0 s, 2 samples)
+System Call Overhead                         691879.1 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   29155166.8   2498.3
+Double-Precision Whetstone                       55.0       4672.7    849.6
+Execl Throughput                                 43.0       3187.8    741.3
+File Copy 1024 bufsize 2000 maxblocks          3960.0     613173.7   1548.4
+File Copy 256 bufsize 500 maxblocks            1655.0     163808.4    989.8
+File Copy 4096 bufsize 8000 maxblocks          5800.0    1682533.4   2900.9
+Pipe Throughput                               12440.0     903554.0    726.3
+Pipe-based Context Switching                   4000.0     188018.3    470.0
+Process Creation                                126.0       8802.0    698.6
+Shell Scripts (1 concurrent)                     42.4       6726.3   1586.4
+Shell Scripts (8 concurrent)                      6.0        856.7   1427.9
+System Call Overhead                          15000.0     691879.1    461.3
+                                                                   ========
+System Benchmarks Index Score                                        1047.4
+
+
+
+======= Script description and score comparison completed! ======= 
+
+
+
+
+DNS performance                  test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average 
+127.0.0.53        4 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    3 ms      1.50
+cloudflare        1 ms    1 ms    1 ms    124 ms  1 ms    1 ms    2 ms    1 ms    2 ms    1 ms      13.50
+level3            1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms      1.00
+google            21 ms   1 ms    1 ms    21 ms   28 ms   82 ms   1 ms    22 ms   21 ms   19 ms     21.70
+quad9             1 ms    3 ms    2 ms    2 ms    161 ms  1 ms    2 ms    1 ms    2 ms    2 ms      17.70
+freenom           58 ms   70 ms   64 ms   61 ms   61 ms   100 ms  59 ms   101 ms  58 ms   73 ms     70.50
+opendns           39 ms   2 ms    2 ms    75 ms   3 ms    170 ms  2 ms    39 ms   39 ms   4 ms      37.50
+norton            2 ms    3 ms    3 ms    3 ms    2 ms    2 ms    2 ms    3 ms    3 ms    3 ms      2.60
+cleanbrowsing     1 ms    3 ms    65 ms   1 ms    1 ms    72 ms   1 ms    19 ms   1 ms    10 ms     17.40
+yandex            177 ms  214 ms  174 ms  179 ms  183 ms  181 ms  181 ms  177 ms  179 ms  177 ms    182.20
+adguard           5 ms    152 ms  152 ms  3 ms    179 ms  461 ms  150 ms  152 ms  3 ms    308 ms    156.50
+neustar           3 ms    2 ms    2 ms    3 ms    3 ms    2 ms    3 ms    2 ms    2 ms    2 ms      2.40
+comodo            70 ms   70 ms   75 ms   71 ms   70 ms   76 ms   70 ms   70 ms   75 ms   76 ms     72.30
