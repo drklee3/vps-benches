@@ -12,3 +12,5 @@ wget -qO- https://raw.githubusercontent.com/drklee3/vps-benches/master/bench.sh 
 
 Piping external scripts to bash is not a good idea, but this is mainly used for temporary machines. Use at your own risk.
 
+Bench scripts found via [haydenjames/bench-scripts](https://github.com/haydenjames/bench-scripts)
+
