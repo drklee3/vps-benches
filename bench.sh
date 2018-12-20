@@ -9,8 +9,8 @@ if [ "$EUID" -ne 0 ]
 fi
 
 # install dependencies
-apt-get update
-apt-get install -qq -y time bzip2 bc dnsutils libc-dev lshw ioping dnsutils
+apt-get update -qq
+apt-get install -qq -y time bzip2 bc dnsutils libc-dev lshw dnsutils openssl wget ftp ioping hdparm
 
 # get basic info
 echo "Distro Information"
