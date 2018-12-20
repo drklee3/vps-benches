@@ -9,7 +9,7 @@ if [ "$EUID" -ne 0 ]
 fi
 
 # install dependencies
-apt-get install -y time bzip2 bc dnsutils libc-dev lshw
+apt-get install -y time bzip2 bc dnsutils libc-dev lshw ioping
 
 # get basic info
 echo "Distro Information"
