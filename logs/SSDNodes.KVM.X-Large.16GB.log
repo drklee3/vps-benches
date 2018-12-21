@@ -1,0 +1,803 @@
+Selecting previously unselected package ioping.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 165850 files and directories currently installed.)
+Preparing to unpack .../ioping_0.9-2_amd64.deb ...
+Unpacking ioping (0.9-2) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up ioping (0.9-2) ...
+Distro Information
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=16.04
+DISTRIB_CODENAME=xenial
+DISTRIB_DESCRIPTION="Ubuntu 16.04.5 LTS"
+NAME="Ubuntu"
+VERSION="16.04.5 LTS (Xenial Xerus)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 16.04.5 LTS"
+VERSION_ID="16.04"
+HOME_URL="http://www.ubuntu.com/"
+SUPPORT_URL="http://help.ubuntu.com/"
+BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/"
+VERSION_CODENAME=xenial
+UBUNTU_CODENAME=xenial
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.5 LTS
+Release:	16.04
+Codename:	xenial
+
+Linux 4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+
+System Informationprocessor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz
+stepping	: 4
+microcode	: 0x1
+cpu MHz		: 1995.312
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ibrs ibpb kaiser fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f rdseed adx smap clflushopt clwb avx512cd xsaveopt xsavec xgetbv1 arat
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 3990.62
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz
+stepping	: 4
+microcode	: 0x1
+cpu MHz		: 1995.312
+cache size	: 4096 KB
+physical id	: 1
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ibrs ibpb kaiser fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f rdseed adx smap clflushopt clwb avx512cd xsaveopt xsavec xgetbv1 arat
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 3990.62
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz
+stepping	: 4
+microcode	: 0x1
+cpu MHz		: 1995.312
+cache size	: 4096 KB
+physical id	: 2
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ibrs ibpb kaiser fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f rdseed adx smap clflushopt clwb avx512cd xsaveopt xsavec xgetbv1 arat
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 3990.62
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz
+stepping	: 4
+microcode	: 0x1
+cpu MHz		: 1995.312
+cache size	: 4096 KB
+physical id	: 3
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ibrs ibpb kaiser fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f rdseed adx smap clflushopt clwb avx512cd xsaveopt xsavec xgetbv1 arat
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 3990.62
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+
+
+lshw
+s
+    description: Computer
+    product: KVM
+    vendor: Virtuozzo
+    version: Virtuozzo 7.6.0 PC (i440FX + PIIX, 1996)
+    width: 64 bits
+    capabilities: smbios-2.8 dmi-2.8 vsyscall32
+    configuration: boot=normal family=Virtuozzo Linux uuid=EEFF7415-9245-9E43-A2E2-6BB985412DF1
+  *-core
+       description: Motherboard
+       physical id: 0
+     *-firmware
+          description: BIOS
+          vendor: SeaBIOS
+          physical id: 0
+          version: 1.10.2-3.1.vz7.3
+          date: 04/01/2014
+          size: 96KiB
+     *-cpu:0
+          description: CPU
+          product: Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz
+          vendor: Intel Corp.
+          physical id: 400
+          bus info: cpu@0
+          version: Virtuozzo 7.6.0 PC (i440FX + PIIX, 1996)
+          slot: CPU 0
+          size: 2GHz
+          capacity: 2GHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc arch_perfmon rep_good nopl xtopology pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ibrs ibpb kaiser fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f rdseed adx smap clflushopt clwb avx512cd xsaveopt xsavec xgetbv1 arat
+          configuration: cores=1 enabledcores=1 threads=1
+     *-cpu:1
+          description: CPU
+          product: Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz
+          vendor: Intel Corp.
+          physical id: 401
+          bus info: cpu@1
+          version: Virtuozzo 7.6.0 PC (i440FX + PIIX, 1996)
+          slot: CPU 1
+          size: 2GHz
+          capacity: 2GHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc arch_perfmon rep_good nopl xtopology pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ibrs ibpb kaiser fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f rdseed adx smap clflushopt clwb avx512cd xsaveopt xsavec xgetbv1 arat
+          configuration: cores=1 enabledcores=1 threads=1
+     *-cpu:2
+          description: CPU
+          product: Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz
+          vendor: Intel Corp.
+          physical id: 402
+          bus info: cpu@2
+          version: Virtuozzo 7.6.0 PC (i440FX + PIIX, 1996)
+          slot: CPU 2
+          size: 2GHz
+          capacity: 2GHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc arch_perfmon rep_good nopl xtopology pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ibrs ibpb kaiser fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f rdseed adx smap clflushopt clwb avx512cd xsaveopt xsavec xgetbv1 arat
+          configuration: cores=1 enabledcores=1 threads=1
+     *-cpu:3
+          description: CPU
+          product: Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz
+          vendor: Intel Corp.
+          physical id: 403
+          bus info: cpu@3
+          version: Virtuozzo 7.6.0 PC (i440FX + PIIX, 1996)
+          slot: CPU 3
+          size: 2GHz
+          capacity: 2GHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc arch_perfmon rep_good nopl xtopology pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ibrs ibpb kaiser fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f rdseed adx smap clflushopt clwb avx512cd xsaveopt xsavec xgetbv1 arat
+          configuration: cores=1 enabledcores=1 threads=1
+     *-memory
+          description: System Memory
+          physical id: 1000
+          size: 16GiB
+        *-bank
+             description: DIMM RAM
+             vendor: Virtuozzo
+             physical id: 0
+             slot: DIMM 0
+             size: 16GiB
+     *-pci
+          description: Host bridge
+          product: 440FX - 82441FX PMC [Natoma]
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 02
+          width: 32 bits
+          clock: 33MHz
+        *-isa
+             description: ISA bridge
+             product: 82371SB PIIX3 ISA [Natoma/Triton II]
+             vendor: Intel Corporation
+             physical id: 1
+             bus info: pci@0000:00:01.0
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa
+             configuration: latency=0
+        *-ide
+             description: IDE interface
+             product: 82371SB PIIX3 IDE [Natoma/Triton II]
+             vendor: Intel Corporation
+             physical id: 1.1
+             bus info: pci@0000:00:01.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: ide bus_master
+             configuration: driver=ata_piix latency=0
+             resources: irq:0 ioport:1f0(size=8) ioport:3f6 ioport:170(size=8) ioport:376 ioport:c0e0(size=16)
+        *-usb
+             description: USB controller
+             product: 82371SB PIIX3 USB [Natoma/Triton II]
+             vendor: Intel Corporation
+             physical id: 1.2
+             bus info: pci@0000:00:01.2
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: uhci bus_master
+             configuration: driver=uhci_hcd latency=0
+             resources: irq:11 ioport:c080(size=32)
+           *-usbhost
+                product: UHCI Host Controller
+                vendor: Linux 4.4.0-140-generic uhci_hcd
+                physical id: 1
+                bus info: usb@1
+                logical name: usb1
+                version: 4.04
+                capabilities: usb-1.10
+                configuration: driver=hub slots=2 speed=12Mbit/s
+        *-bridge
+             description: Bridge
+             product: 82371AB/EB/MB PIIX4 ACPI
+             vendor: Intel Corporation
+             physical id: 1.3
+             bus info: pci@0000:00:01.3
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: bridge
+             configuration: driver=piix4_smbus latency=0
+             resources: irq:9
+        *-display UNCLAIMED
+             description: VGA compatible controller
+             physical id: 2
+             bus info: pci@0000:00:02.0
+             version: 02
+             width: 32 bits
+             clock: 33MHz
+             capabilities: vga_controller bus_master
+             configuration: latency=0
+             resources: memory:fc000000-fdffffff memory:febd0000-febd0fff memory:febc0000-febcffff
+        *-network
+             description: Ethernet interface
+             product: Virtio network device
+             vendor: Red Hat, Inc
+             physical id: 3
+             bus info: pci@0000:00:03.0
+             logical name: ens3
+             version: 00
+             serial: 00:1c:42:35:83:ba
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msix bus_master cap_list rom ethernet physical logical
+             configuration: autonegotiation=off broadcast=yes driver=virtio_net driverversion=1.0.0 ip=104.225.221.110 latency=0 link=yes multicast=yes
+             resources: irq:10 ioport:c0a0(size=32) memory:febd1000-febd1fff memory:fe000000-fe003fff memory:feb80000-febbffff
+        *-scsi
+             description: SCSI storage controller
+             product: Virtio SCSI
+             vendor: Red Hat, Inc
+             physical id: 4
+             bus info: pci@0000:00:04.0
+             version: 00
+             width: 64 bits
+             clock: 33MHz
+             capabilities: scsi msix bus_master cap_list
+             configuration: driver=virtio-pci latency=0
+             resources: irq:11 ioport:c000(size=64) memory:febd2000-febd2fff memory:fe004000-fe007fff
+        *-communication
+             description: Communication controller
+             product: Virtio console
+             vendor: Red Hat, Inc
+             physical id: 5
+             bus info: pci@0000:00:05.0
+             version: 00
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msix bus_master cap_list
+             configuration: driver=virtio-pci latency=0
+             resources: irq:10 ioport:c040(size=64) memory:febd3000-febd3fff memory:fe008000-fe00bfff
+        *-generic:0
+             description: Unclassified device
+             product: Virtio memory balloon
+             vendor: Red Hat, Inc
+             physical id: 6
+             bus info: pci@0000:00:06.0
+             version: 00
+             width: 64 bits
+             clock: 33MHz
+             capabilities: bus_master cap_list
+             configuration: driver=virtio-pci latency=0
+             resources: irq:11 ioport:c0c0(size=32) memory:fe00c000-fe00ffff
+        *-generic:1 UNCLAIMED
+             description: System peripheral
+             product: 6300ESB Watchdog Timer
+             vendor: Intel Corporation
+             physical id: 7
+             bus info: pci@0000:00:07.0
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             configuration: latency=0
+             resources: memory:febd4000-febd400f
+     *-scsi
+          physical id: 1
+          logical name: scsi2
+        *-disk
+             description: SCSI Disk
+             physical id: 0.0.0
+             bus info: scsi@2:0.0.0
+             logical name: /dev/sda
+             size: 80GiB (85GB)
+             capabilities: partitioned partitioned:dos
+             configuration: logicalsectorsize=512 sectorsize=512 signature=fea52a9c
+           *-volume:0
+                description: Linux filesystem partition
+                vendor: Linux
+                physical id: 1
+                bus info: scsi@2:0.0.0,1
+                logical name: /dev/sda1
+                logical name: /boot
+                version: 1.0
+                serial: 7f7e9d93-85f5-4128-baac-481561778bb1
+                size: 487MiB
+                capacity: 487MiB
+                capabilities: primary bootable extended_attributes large_files ext2 initialized
+                configuration: filesystem=ext2 lastmountpoint=/boot modified=2018-12-18 21:56:05 mount.fstype=ext2 mount.options=rw,relatime,block_validity,barrier,user_xattr,acl mounted=2018-12-18 21:56:05 state=mounted
+           *-volume:1
+                description: Extended partition
+                physical id: 2
+                bus info: scsi@2:0.0.0,2
+                logical name: /dev/sda2
+                size: 79GiB
+                capacity: 79GiB
+                capabilities: primary extended partitioned partitioned:extended
+              *-logicalvolume
+                   description: Linux LVM Physical Volume partition
+                   physical id: 5
+                   logical name: /dev/sda5
+                   serial: VUKfCO-ozQ3-qRQP-FPbY-VFiQ-8Y8A-pP7nP3
+                   size: 14GiB
+                   capacity: 79GiB
+                   capabilities: multi lvm2
+        *-cdrom
+             description: DVD reader
+             physical id: 0.1.0
+             bus info: scsi@2:0.1.0
+             logical name: /dev/cdrom
+             logical name: /dev/dvd
+             logical name: /dev/sr0
+             capabilities: audio dvd
+             configuration: status=ready
+
+lshw -short
+H/W path        Device      Class          Description
+======================================================
+                            system         KVM
+/0                          bus            Motherboard
+/0/0                        memory         96KiB BIOS
+/0/400                      processor      Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz
+/0/401                      processor      Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz
+/0/402                      processor      Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz
+/0/403                      processor      Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz
+/0/1000                     memory         16GiB System Memory
+/0/1000/0                   memory         16GiB DIMM RAM
+/0/100                      bridge         440FX - 82441FX PMC [Natoma]
+/0/100/1                    bridge         82371SB PIIX3 ISA [Natoma/Triton II]
+/0/100/1.1                  storage        82371SB PIIX3 IDE [Natoma/Triton II]
+/0/100/1.2                  bus            82371SB PIIX3 USB [Natoma/Triton II]
+/0/100/1.2/1    usb1        bus            UHCI Host Controller
+/0/100/1.3                  bridge         82371AB/EB/MB PIIX4 ACPI
+/0/100/2                    display        VGA compatible controller
+/0/100/3        ens3        network        Virtio network device
+/0/100/4                    storage        Virtio SCSI
+/0/100/5                    communication  Virtio console
+/0/100/6                    generic        Virtio memory balloon
+/0/100/7                    generic        6300ESB Watchdog Timer
+/0/1            scsi2       storage        
+/0/1/0.0.0      /dev/sda    disk           85GB SCSI Disk
+/0/1/0.0.0/1    /dev/sda1   volume         487MiB Linux filesystem partition
+/0/1/0.0.0/2    /dev/sda2   volume         79GiB Extended partition
+/0/1/0.0.0/2/5  /dev/sda5   volume         79GiB Linux LVM Physical Volume partition
+/0/1/0.1.0      /dev/cdrom  disk           DVD reader
+
+
+Benchmarks[3;J[H[2J----------------------------------------------------------------------
+CPU model            : [0;36mIntel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz[0m
+Number of cores      : [0;36m4[0m
+CPU frequency        : [0;36m1995.312 MHz[0m
+Total size of Disk   : [0;36m79.5 GB (12.1 GB Used)[0m
+Total amount of Mem  : [0;36m16047 MB (1138 MB Used)[0m
+Total amount of Swap : [0;36m0 MB (0 MB Used)[0m
+System uptime        : [0;36m1 days, 17 hour 52 min[0m
+Load average         : [0;36m0.83, 0.37, 0.29[0m
+OS                   : [0;36mUbuntu 16.04.5 LTS[0m
+Arch                 : [0;36mx86_64 (64 Bit)[0m
+Kernel               : [0;36m4.4.0-140-generic[0m
+----------------------------------------------------------------------
+I/O speed(1st run)   : [0;33m160 MB/s[0m
+I/O speed(2nd run)   : [0;33m179 MB/s[0m
+I/O speed(3rd run)   : [0;33m188 MB/s[0m
+Average I/O speed    : [0;33m175.7 MB/s[0m
+----------------------------------------------------------------------
+Node Name                       IPv4 address            Download Speed
+[0;33mCacheFly                        [0;32m205.234.175.175         [0;31m150MB/s       [0m
+[0;33mLinode, Tokyo, JP               [0;32m106.187.96.148          [0;31m15.1MB/s      [0m
+[0;33mLinode, Singapore, SG           [0;32m139.162.23.4            [0;31m10.3MB/s      [0m
+[0;33mLinode, London, UK              [0;32m176.58.107.39           [0;31m20.3MB/s      [0m
+[0;33mLinode, Frankfurt, DE           [0;32m139.162.130.8           [0;31m16.3MB/s      [0m
+[0;33mLinode, Fremont, CA             [0;32m50.116.14.9             [0;31m60.2MB/s      [0m
+[0;33mSoftlayer, Dallas, TX           [0;32m173.192.68.18           [0;31m42.5MB/s      [0m
+[0;33mSoftlayer, Seattle, WA          [0;32m67.228.112.250          [0;31m24.3MB/s      [0m
+[0;33mSoftlayer, Frankfurt, DE        [0;32m159.122.69.4            [0;31m5.64MB/s      [0m
+[0;33mSoftlayer, Singapore, SG        [0;32m119.81.28.170           [0;31m5.97MB/s      [0m
+[0;33mSoftlayer, HongKong, CN         [0;32m119.81.130.170          [0;31m6.28MB/s      [0m
+----------------------------------------------------------------------
+-------------------------------------------------
+ nench.sh v2018.04.14 -- https://git.io/nench.sh
+ benchmark timestamp:    2018-12-20 23:50:43 UTC
+-------------------------------------------------
+
+Processor:    Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz
+CPU cores:    4
+Frequency:    1995.312 MHz
+RAM:          15G
+Swap:         -
+Kernel:       Linux 4.4.0-140-generic x86_64
+
+Disks:
+sda     80G  HDD
+
+CPU: SHA256-hashing 500 MB
+    CPU: bzip2-compressing 500 MB
+    CPU: AES-encrypting 500 MB
+    
+ioping: seek rate
+    min/avg/max/mdev = 54 us / 240 us / 49.3 ms / 745 us
+ioping: sequential read speed
+    10.2 k requests completed in 5.00 s, 2.06 k iops, 516.4 MiB/s
+
+dd: sequential write speed
+    1st run:    171.66 MiB/s
+    2nd run:    176.43 MiB/s
+    3rd run:    165.94 MiB/s
+    average:    171.34 MiB/s
+
+IPv4 speedtests
+    your IPv4:    104.225.221.xxxx
+
+    Cachefly CDN:         119.83 MiB/s
+    Leaseweb (NL):        11.87 MiB/s
+    Softlayer DAL (US):   86.33 MiB/s
+    Online.net (FR):      10.94 MiB/s
+    OVH BHS (CA):         22.39 MiB/s
+
+No IPv6 connectivity detected
+-------------------------------------------------
+
+Benching I/O ... OK
+Benching CPU. Bzipping 25MB file ... OK
+Benching inbound network. Downloading 100MB file ... OK
+Share at https://github.com/mgutz/vpsbench/wiki/VPS-Hosts
+
+
+_12/20/2018 - VMPLAN - DATACENTER - OS - AUTHOR_
+```
+CPU model:  Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz
+Number of cores: 4
+CPU frequency:  1995.312 MHz
+Total amount of RAM: 16047 MB
+Total amount of swap:  MB
+System uptime:   1 day, 17:56,       
+I/O speed:  175 MB/s
+Bzip 25MB: 8.32s
+Download 100MB file: 142MB/s
+```
+
+
+Hit:1 http://us.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:2 http://us.archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:3 http://us.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Hit:4 http://ppa.launchpad.net/fish-shell/release-2/ubuntu xenial InRelease
+Hit:5 https://deb.nodesource.com/node_8.x xenial InRelease
+Hit:6 http://security.ubuntu.com/ubuntu xenial-security InRelease
+Ign:7 https://apt.datadoghq.com stable InRelease
+Hit:8 https://apt.datadoghq.com stable Release
+Hit:9 http://apt.postgresql.org/pub/repos/apt xenial-pgdg InRelease
+Hit:10 http://ppa.launchpad.net/mc3man/xerus-media/ubuntu xenial InRelease
+Hit:11 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+autoconf is already the newest version (2.69-9).
+automake is already the newest version (1:1.15-4ubuntu1).
+gcc is already the newest version (4:5.3.1-1ubuntu1).
+gcc set to manually installed.
+make is already the newest version (4.1-6).
+make set to manually installed.
+time is already the newest version (1.7-25.1).
+perl is already the newest version (5.22.1-9ubuntu0.6).
+0 upgraded, 0 newly installed, 0 to remove and 27 not upgraded.
+UnixBench5.1.3.tgz not found!!!download now...
+UnixBench/
+UnixBench/README
+UnixBench/src/
+UnixBench/src/looper.c
+UnixBench/src/time-polling.c
+UnixBench/src/arith.c
+UnixBench/src/hanoi.c
+UnixBench/src/timeit.c
+UnixBench/src/dhry_1.c
+UnixBench/src/dhry.h
+UnixBench/src/dhry_2.c
+UnixBench/src/fstime.c
+UnixBench/src/syscall.c
+UnixBench/src/execl.c
+UnixBench/src/context1.c
+UnixBench/src/whets.c
+UnixBench/src/dummy.c
+UnixBench/src/big.c
+UnixBench/src/spawn.c
+UnixBench/src/pipe.c
+UnixBench/src/ubgears.c
+UnixBench/pgms/
+UnixBench/pgms/index.base
+UnixBench/pgms/gfx-x11
+UnixBench/pgms/multi.sh
+UnixBench/pgms/unixbench.logo
+UnixBench/pgms/tst.sh
+UnixBench/WRITING_TESTS
+UnixBench/.project
+UnixBench/Run
+UnixBench/testdir/
+UnixBench/testdir/sort.src
+UnixBench/testdir/cctest.c
+UnixBench/testdir/dc.dat
+UnixBench/testdir/large.txt
+UnixBench/.cproject
+UnixBench/results/
+UnixBench/Makefile
+UnixBench/USAGE
+Checking distribution of files
+./pgms  exists
+./src  exists
+./testdir  exists
+./results  exists
+gcc -o ./pgms/arithoh -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Darithoh ./src/arith.c
+gcc -o ./pgms/register -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum='register int' ./src/arith.c
+gcc -o ./pgms/short -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum=short ./src/arith.c
+gcc -o ./pgms/int -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum=int ./src/arith.c
+gcc -o ./pgms/long -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum=long ./src/arith.c
+gcc -o ./pgms/float -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum=float ./src/arith.c
+gcc -o ./pgms/double -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum=double ./src/arith.c
+gcc -o ./pgms/hanoi -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/hanoi.c
+gcc -o ./pgms/syscall -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/syscall.c
+gcc -o ./pgms/context1 -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/context1.c
+gcc -o ./pgms/pipe -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/pipe.c
+gcc -o ./pgms/spawn -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/spawn.c
+gcc -o ./pgms/execl -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/execl.c
+cd ./src; gcc -c -DTIME -Wall -pedantic -ansi -DHZ= -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall dhry_1.c
+cd ./src; gcc -c -DTIME -Wall -pedantic -ansi -DHZ= -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall dhry_2.c
+gcc -o ./pgms/dhry2 -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/dhry_1.o ./src/dhry_2.o
+cd ./src; rm -f dhry_1.o dhry_2.o
+cd ./src; gcc -c -DTIME -Wall -pedantic -ansi -DREG=register -DHZ= -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall dhry_1.c -o dhry_1_reg.o
+cd ./src; gcc -c -DTIME -Wall -pedantic -ansi -DREG=register -DHZ= -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall dhry_2.c -o dhry_2_reg.o
+gcc -o ./pgms/dhry2reg -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/dhry_1_reg.o ./src/dhry_2_reg.o
+cd ./src; rm -f dhry_1_reg.o dhry_2_reg.o
+gcc -o ./pgms/looper -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/looper.c
+gcc -o ./pgms/fstime -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/fstime.c
+gcc -o ./pgms/whetstone-double -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -DDP -DUNIX -DUNIXBENCH ./src/whets.c -lm
+make all
+make[1]: Entering directory '/opt/unixbench/UnixBench'
+Checking distribution of files
+./pgms  exists
+./src  exists
+./testdir  exists
+./tmp  exists
+./results  exists
+make[1]: Leaving directory '/opt/unixbench/UnixBench'
+
+   #    #  #    #  #  #    #          #####   ######  #    #   ####   #    #
+   #    #  ##   #  #   #  #           #    #  #       ##   #  #    #  #    #
+   #    #  # #  #  #    ##            #####   #####   # #  #  #       ######
+   #    #  #  # #  #    ##            #    #  #       #  # #  #       #    #
+   #    #  #   ##  #   #  #           #    #  #       #   ##  #    #  #    #
+    ####   #    #  #  #    #          #####   ######  #    #   ####   #    #
+
+   Version 5.1.3                      Based on the Byte Magazine Unix Benchmark
+
+   Multi-CPU version                  Version 5 revisions by Ian Smith,
+                                      Sunnyvale, CA, USA
+   January 13, 2011                   johantheghost at yahoo period com
+
+
+1 x Dhrystone 2 using register variables  1 2 3 4 5 6 7 8 9 10
+
+1 x Double-Precision Whetstone  1 2 3 4 5 6 7 8 9 10
+
+1 x Execl Throughput  1 2 3
+
+1 x File Copy 1024 bufsize 2000 maxblocks  1 2 3
+
+1 x File Copy 256 bufsize 500 maxblocks  1 2 3
+
+1 x File Copy 4096 bufsize 8000 maxblocks  1 2 3
+
+1 x Pipe Throughput  1 2 3 4 5 6 7 8 9 10
+
+1 x Pipe-based Context Switching  1 2 3 4 5 6 7 8 9 10
+
+1 x Process Creation  1 2 3
+
+1 x System Call Overhead  1 2 3 4 5 6 7 8 9 10
+
+1 x Shell Scripts (1 concurrent)  1 2 3
+
+1 x Shell Scripts (8 concurrent)  1 2 3
+
+4 x Dhrystone 2 using register variables  1 2 3 4 5 6 7 8 9 10
+
+4 x Double-Precision Whetstone  1 2 3 4 5 6 7 8 9 10
+
+4 x Execl Throughput  1 2 3
+
+4 x File Copy 1024 bufsize 2000 maxblocks  1 2 3
+
+4 x File Copy 256 bufsize 500 maxblocks  1 2 3
+
+4 x File Copy 4096 bufsize 8000 maxblocks  1 2 3
+
+4 x Pipe Throughput  1 2 3 4 5 6 7 8 9 10
+
+4 x Pipe-based Context Switching  1 2 3 4 5 6 7 8 9 10
+
+4 x Process Creation  1 2 3
+
+4 x System Call Overhead  1 2 3 4 5 6 7 8 9 10
+
+4 x Shell Scripts (1 concurrent)  1 2 3
+
+4 x Shell Scripts (8 concurrent)  1 2 3
+
+========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: s: GNU/Linux
+   OS: GNU/Linux -- 4.4.0-140-generic -- #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+   Machine: x86_64 (x86_64)
+   Language: en_US.utf8 (charmap="UTF-8", collate="UTF-8")
+   CPU 0: Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz (3990.6 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 1: Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz (3990.6 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 2: Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz (3990.6 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 3: Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz (3990.6 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   15:52:30 up 1 day, 17:56,  1 user,  load average: 0.91, 0.57, 0.38; runlevel 5
+
+------------------------------------------------------------------------
+Benchmark Run: Thu Dec 20 2018 15:52:30 - 16:20:49
+4 CPUs in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables       22017366.2 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     2623.6 MWIPS (9.5 s, 7 samples)
+Execl Throughput                               1192.5 lps   (29.8 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        347653.4 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          108587.5 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        770386.9 KBps  (30.0 s, 2 samples)
+Pipe Throughput                              745030.6 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                  54424.0 lps   (10.0 s, 7 samples)
+Process Creation                               3052.0 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   2998.9 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                   1151.6 lpm   (60.1 s, 2 samples)
+System Call Overhead                         796394.5 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   22017366.2   1886.7
+Double-Precision Whetstone                       55.0       2623.6    477.0
+Execl Throughput                                 43.0       1192.5    277.3
+File Copy 1024 bufsize 2000 maxblocks          3960.0     347653.4    877.9
+File Copy 256 bufsize 500 maxblocks            1655.0     108587.5    656.1
+File Copy 4096 bufsize 8000 maxblocks          5800.0     770386.9   1328.3
+Pipe Throughput                               12440.0     745030.6    598.9
+Pipe-based Context Switching                   4000.0      54424.0    136.1
+Process Creation                                126.0       3052.0    242.2
+Shell Scripts (1 concurrent)                     42.4       2998.9    707.3
+Shell Scripts (8 concurrent)                      6.0       1151.6   1919.4
+System Call Overhead                          15000.0     796394.5    530.9
+                                                                   ========
+System Benchmarks Index Score                                         611.2
+
+------------------------------------------------------------------------
+Benchmark Run: Thu Dec 20 2018 16:20:49 - 16:49:21
+4 CPUs in system; running 4 parallel copies of tests
+
+Dhrystone 2 using register variables       82800462.6 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                    10443.6 MWIPS (9.7 s, 7 samples)
+Execl Throughput                               8355.5 lps   (30.0 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        456545.2 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          134026.9 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       1008664.2 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             2734121.7 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 312805.1 lps   (10.0 s, 7 samples)
+Process Creation                              12314.0 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                  11404.1 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                   1905.4 lpm   (60.1 s, 2 samples)
+System Call Overhead                        2608069.4 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   82800462.6   7095.2
+Double-Precision Whetstone                       55.0      10443.6   1898.8
+Execl Throughput                                 43.0       8355.5   1943.1
+File Copy 1024 bufsize 2000 maxblocks          3960.0     456545.2   1152.9
+File Copy 256 bufsize 500 maxblocks            1655.0     134026.9    809.8
+File Copy 4096 bufsize 8000 maxblocks          5800.0    1008664.2   1739.1
+Pipe Throughput                               12440.0    2734121.7   2197.8
+Pipe-based Context Switching                   4000.0     312805.1    782.0
+Process Creation                                126.0      12314.0    977.3
+Shell Scripts (1 concurrent)                     42.4      11404.1   2689.6
+Shell Scripts (8 concurrent)                      6.0       1905.4   3175.6
+System Call Overhead                          15000.0    2608069.4   1738.7
+                                                                   ========
+System Benchmarks Index Score                                        1787.0
+
+
+
+======= Script description and score comparison completed! ======= 
+
+
+
+
+DNS performance                  test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average 
+8.8.4.4           11 ms   2 ms    1 ms    10 ms   15 ms   18 ms   1 ms    9 ms    8 ms    8 ms      8.30
+8.8.8.8           8 ms    1 ms    8 ms    10 ms   8 ms    39 ms   1 ms    12 ms   11 ms   1 ms      9.90
+cloudflare        1 ms    5 ms    1 ms    16 ms   1 ms    1 ms    1 ms    1 ms    1 ms    1 ms      2.90
+level3            1 ms    1 ms    1 ms    6 ms    1 ms    1 ms    1 ms    2 ms    1 ms    1 ms      1.60
+google            10 ms   1 ms    1 ms    16 ms   15 ms   9 ms    1 ms    10 ms   8 ms    2 ms      7.30
+quad9             30 ms   31 ms   30 ms   30 ms   31 ms   30 ms   30 ms   43 ms   30 ms   30 ms     31.50
+freenom           30 ms   24 ms   28 ms   24 ms   24 ms   181 ms  38 ms   24 ms   31 ms   47 ms     45.10
+opendns           7 ms    1 ms    1 ms    22 ms   1 ms    8 ms    3 ms    7 ms    7 ms    1 ms      5.80
+norton            1 ms    5 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms      1.40
+cleanbrowsing     1 ms    1 ms    1 ms    1 ms    1 ms    2 ms    1 ms    8 ms    1 ms    10 ms     2.70
+yandex            148 ms  147 ms  148 ms  147 ms  149 ms  148 ms  148 ms  190 ms  147 ms  177 ms    154.90
+adguard           8 ms    125 ms  4 ms    15 ms   1 ms    130 ms  1 ms    18 ms   2 ms    135 ms    43.90
+neustar           1 ms    3 ms    1 ms    2 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms      1.30
+comodo            40 ms   40 ms   40 ms   39 ms   40 ms   39 ms   50 ms   40 ms   39 ms   42 ms     40.90

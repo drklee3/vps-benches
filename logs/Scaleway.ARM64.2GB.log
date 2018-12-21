@@ -1,0 +1,708 @@
+Selecting previously unselected package bzip2.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29073 files and directories currently installed.)
+Preparing to unpack .../bzip2_1.0.6-8_arm64.deb ...
+Unpacking bzip2 (1.0.6-8) ...
+Selecting previously unselected package libgeoip1:arm64.
+Preparing to unpack .../libgeoip1_1.6.9-1_arm64.deb ...
+Unpacking libgeoip1:arm64 (1.6.9-1) ...
+Selecting previously unselected package libisc160:arm64.
+Preparing to unpack .../libisc160_1%3a9.10.3.dfsg.P4-8ubuntu1.11_arm64.deb ...
+Unpacking libisc160:arm64 (1:9.10.3.dfsg.P4-8ubuntu1.11) ...
+Selecting previously unselected package libdns162:arm64.
+Preparing to unpack .../libdns162_1%3a9.10.3.dfsg.P4-8ubuntu1.11_arm64.deb ...
+Unpacking libdns162:arm64 (1:9.10.3.dfsg.P4-8ubuntu1.11) ...
+Selecting previously unselected package libisccc140:arm64.
+Preparing to unpack .../libisccc140_1%3a9.10.3.dfsg.P4-8ubuntu1.11_arm64.deb ...
+Unpacking libisccc140:arm64 (1:9.10.3.dfsg.P4-8ubuntu1.11) ...
+Selecting previously unselected package libisccfg140:arm64.
+Preparing to unpack .../libisccfg140_1%3a9.10.3.dfsg.P4-8ubuntu1.11_arm64.deb ...
+Unpacking libisccfg140:arm64 (1:9.10.3.dfsg.P4-8ubuntu1.11) ...
+Selecting previously unselected package libbind9-140:arm64.
+Preparing to unpack .../libbind9-140_1%3a9.10.3.dfsg.P4-8ubuntu1.11_arm64.deb ...
+Unpacking libbind9-140:arm64 (1:9.10.3.dfsg.P4-8ubuntu1.11) ...
+Selecting previously unselected package liblwres141:arm64.
+Preparing to unpack .../liblwres141_1%3a9.10.3.dfsg.P4-8ubuntu1.11_arm64.deb ...
+Unpacking liblwres141:arm64 (1:9.10.3.dfsg.P4-8ubuntu1.11) ...
+Selecting previously unselected package bind9-host.
+Preparing to unpack .../bind9-host_1%3a9.10.3.dfsg.P4-8ubuntu1.11_arm64.deb ...
+Unpacking bind9-host (1:9.10.3.dfsg.P4-8ubuntu1.11) ...
+Selecting previously unselected package dnsutils.
+Preparing to unpack .../dnsutils_1%3a9.10.3.dfsg.P4-8ubuntu1.11_arm64.deb ...
+Unpacking dnsutils (1:9.10.3.dfsg.P4-8ubuntu1.11) ...
+Selecting previously unselected package ftp.
+Preparing to unpack .../archives/ftp_0.17-33_arm64.deb ...
+Unpacking ftp (0.17-33) ...
+Selecting previously unselected package geoip-database.
+Preparing to unpack .../geoip-database_20160408-1_all.deb ...
+Unpacking geoip-database (20160408-1) ...
+Selecting previously unselected package hdparm.
+Preparing to unpack .../hdparm_9.48+ds-1ubuntu0.1_arm64.deb ...
+Unpacking hdparm (9.48+ds-1ubuntu0.1) ...
+Selecting previously unselected package libpci3:arm64.
+Preparing to unpack .../libpci3_1%3a3.3.1-1.1ubuntu1.2_arm64.deb ...
+Unpacking libpci3:arm64 (1:3.3.1-1.1ubuntu1.2) ...
+Selecting previously unselected package libusb-1.0-0:arm64.
+Preparing to unpack .../libusb-1.0-0_2%3a1.0.20-1_arm64.deb ...
+Unpacking libusb-1.0-0:arm64 (2:1.0.20-1) ...
+Selecting previously unselected package lshw.
+Preparing to unpack .../lshw_02.17-1.1ubuntu3.5_arm64.deb ...
+Unpacking lshw (02.17-1.1ubuntu3.5) ...
+Selecting previously unselected package manpages.
+Preparing to unpack .../manpages_4.04-2_all.deb ...
+Unpacking manpages (4.04-2) ...
+Preparing to unpack .../openssl_1.0.2g-1ubuntu4.14_arm64.deb ...
+Unpacking openssl (1.0.2g-1ubuntu4.14) over (1.0.2g-1ubuntu4.13) ...
+Selecting previously unselected package pciutils.
+Preparing to unpack .../pciutils_1%3a3.3.1-1.1ubuntu1.2_arm64.deb ...
+Unpacking pciutils (1:3.3.1-1.1ubuntu1.2) ...
+Selecting previously unselected package powermgmt-base.
+Preparing to unpack .../powermgmt-base_1.31+nmu1_all.deb ...
+Unpacking powermgmt-base (1.31+nmu1) ...
+Selecting previously unselected package time.
+Preparing to unpack .../time_1.7-25.1_arm64.deb ...
+Unpacking time (1.7-25.1) ...
+Selecting previously unselected package usbutils.
+Preparing to unpack .../usbutils_1%3a007-4_arm64.deb ...
+Unpacking usbutils (1:007-4) ...
+Selecting previously unselected package libc-dev-bin.
+Preparing to unpack .../libc-dev-bin_2.23-0ubuntu10_arm64.deb ...
+Unpacking libc-dev-bin (2.23-0ubuntu10) ...
+Selecting previously unselected package linux-libc-dev:arm64.
+Preparing to unpack .../linux-libc-dev_4.4.0-141.167_arm64.deb ...
+Unpacking linux-libc-dev:arm64 (4.4.0-141.167) ...
+Selecting previously unselected package libc6-dev:arm64.
+Preparing to unpack .../libc6-dev_2.23-0ubuntu10_arm64.deb ...
+Unpacking libc6-dev:arm64 (2.23-0ubuntu10) ...
+Selecting previously unselected package manpages-dev.
+Preparing to unpack .../manpages-dev_4.04-2_all.deb ...
+Unpacking manpages-dev (4.04-2) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Setting up bzip2 (1.0.6-8) ...
+Setting up libgeoip1:arm64 (1.6.9-1) ...
+Setting up libisc160:arm64 (1:9.10.3.dfsg.P4-8ubuntu1.11) ...
+Setting up libdns162:arm64 (1:9.10.3.dfsg.P4-8ubuntu1.11) ...
+Setting up libisccc140:arm64 (1:9.10.3.dfsg.P4-8ubuntu1.11) ...
+Setting up libisccfg140:arm64 (1:9.10.3.dfsg.P4-8ubuntu1.11) ...
+Setting up libbind9-140:arm64 (1:9.10.3.dfsg.P4-8ubuntu1.11) ...
+Setting up liblwres141:arm64 (1:9.10.3.dfsg.P4-8ubuntu1.11) ...
+Setting up bind9-host (1:9.10.3.dfsg.P4-8ubuntu1.11) ...
+Setting up dnsutils (1:9.10.3.dfsg.P4-8ubuntu1.11) ...
+Setting up ftp (0.17-33) ...
+update-alternatives: using /usr/bin/netkit-ftp to provide /usr/bin/ftp (ftp) in auto mode
+Setting up geoip-database (20160408-1) ...
+Setting up hdparm (9.48+ds-1ubuntu0.1) ...
+Setting up libpci3:arm64 (1:3.3.1-1.1ubuntu1.2) ...
+Setting up libusb-1.0-0:arm64 (2:1.0.20-1) ...
+Setting up lshw (02.17-1.1ubuntu3.5) ...
+Setting up manpages (4.04-2) ...
+Setting up openssl (1.0.2g-1ubuntu4.14) ...
+Setting up pciutils (1:3.3.1-1.1ubuntu1.2) ...
+Setting up powermgmt-base (1.31+nmu1) ...
+Setting up time (1.7-25.1) ...
+Setting up usbutils (1:007-4) ...
+Setting up libc-dev-bin (2.23-0ubuntu10) ...
+Setting up linux-libc-dev:arm64 (4.4.0-141.167) ...
+Setting up libc6-dev:arm64 (2.23-0ubuntu10) ...
+Setting up manpages-dev (4.04-2) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Distro Information
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=16.04
+DISTRIB_CODENAME=xenial
+DISTRIB_DESCRIPTION="Ubuntu 16.04.4 LTS"
+NAME="Ubuntu"
+VERSION="16.04.4 LTS (Xenial Xerus)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 16.04.4 LTS"
+VERSION_ID="16.04"
+HOME_URL="http://www.ubuntu.com/"
+SUPPORT_URL="http://help.ubuntu.com/"
+BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/"
+VERSION_CODENAME=xenial
+UBUNTU_CODENAME=xenial
+IMAGE_ID="Ubuntu Xenial"
+IMAGE_RELEASE=2018-07-03
+IMAGE_CODENAME=ubuntu
+IMAGE_DESCRIPTION="Ubuntu Xenial (16.04 LTS)"
+IMAGE_HELP_URL="https://github.com/scaleway/image-ubuntu"
+IMAGE_SOURCE_URL="https://github.com/scaleway/image-ubuntu"
+IMAGE_DOC_URL="https://github.com/scaleway/image-ubuntu"
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.4 LTS
+Release:	16.04
+Codename:	xenial
+
+Linux scw-ddc5e1 4.4.127-mainline-rev1 #1 SMP Sun Apr 8 10:44:07 UTC 2018 aarch64 aarch64 aarch64 GNU/Linux
+
+
+System Informationprocessor	: 0
+BogoMIPS	: 200.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0a1
+CPU revision	: 1
+
+processor	: 1
+BogoMIPS	: 200.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0a1
+CPU revision	: 1
+
+processor	: 2
+BogoMIPS	: 200.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0a1
+CPU revision	: 1
+
+processor	: 3
+BogoMIPS	: 200.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics
+CPU implementer	: 0x43
+CPU architecture: 8
+CPU variant	: 0x1
+CPU part	: 0x0a1
+CPU revision	: 1
+
+
+
+lshw
+scw-ddc5e1
+    description: Computer
+    width: 64 bits
+    capabilities: cp15_barrier setend swp
+  *-core
+       description: Motherboard
+       physical id: 0
+       capabilities: linux_dummy-virt
+     *-cpu:0
+          description: CPU
+          product: cpu
+          physical id: 0
+          bus info: cpu@0
+          capabilities: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics
+     *-cpu:1
+          description: CPU
+          product: cpu
+          physical id: 1
+          bus info: cpu@1
+          capabilities: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics
+     *-cpu:2
+          description: CPU
+          product: cpu
+          physical id: 2
+          bus info: cpu@2
+          capabilities: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics
+     *-cpu:3
+          description: CPU
+          product: cpu
+          physical id: 3
+          bus info: cpu@3
+          capabilities: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics
+     *-memory
+          description: System memory
+          physical id: 4
+          size: 1928MiB
+     *-pci
+          description: Host bridge
+          product: Red Hat, Inc.
+          vendor: Red Hat, Inc.
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+        *-network
+             description: Ethernet interface
+             product: Virtio network device
+             vendor: Red Hat, Inc
+             physical id: 1
+             bus info: pci@0000:00:01.0
+             logical name: enp0s1
+             version: 00
+             serial: de:2b:88:07:00:05
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msix bus_master cap_list rom ethernet physical
+             configuration: broadcast=yes driver=virtio_net driverversion=1.0.0 ip=10.9.139.9 latency=0 link=yes multicast=yes
+             resources: irq:48 ioport:f040(size=32) memory:3ee09000-3ee09fff memory:3ee00000-3ee03fff memory:fffc0000-ffffffff
+        *-scsi
+             description: SCSI storage controller
+             product: Virtio block device
+             vendor: Red Hat, Inc
+             physical id: 2
+             bus info: pci@0000:00:02.0
+             version: 00
+             width: 64 bits
+             clock: 33MHz
+             capabilities: scsi msix bus_master cap_list
+             configuration: driver=virtio-pci latency=0
+             resources: irq:49 ioport:f000(size=64) memory:3ee08000-3ee08fff memory:3ee04000-3ee07fff
+
+lshw -short
+H/W path  Device  Class      Description
+========================================
+                  system     Computer
+/0                bus        Motherboard
+/0/0              processor  cpu
+/0/1              processor  cpu
+/0/2              processor  cpu
+/0/3              processor  cpu
+/0/4              memory     1928MiB System memory
+/0/100            bridge     Red Hat, Inc.
+/0/100/1  enp0s1  network    Virtio network device
+/0/100/2          storage    Virtio block device
+
+
+Benchmarks[3;J[H[2J----------------------------------------------------------------------
+CPU model            : [0;36m[0m
+Number of cores      : [0;36m[0m
+CPU frequency        : [0;36m MHz[0m
+Total size of Disk   : [0;36m46.1 GB (513.4 GB Used)[0m
+Total amount of Mem  : [0;36m1928 MB (24 MB Used)[0m
+Total amount of Swap : [0;36m0 MB (0 MB Used)[0m
+System uptime        : [0;36m0 days, 0 hour 1 min[0m
+Load average         : [0;36m0.55, 0.16, 0.06[0m
+OS                   : [0;36mUbuntu 16.04.4 LTS[0m
+Arch                 : [0;36maarch64 (64 Bit)[0m
+Kernel               : [0;36m4.4.127-mainline-rev1[0m
+----------------------------------------------------------------------
+I/O speed(1st run)   : [0;33m182 MB/s[0m
+I/O speed(2nd run)   : [0;33m200 MB/s[0m
+I/O speed(3rd run)   : [0;33m184 MB/s[0m
+Average I/O speed    : [0;33m188.7 MB/s[0m
+----------------------------------------------------------------------
+Node Name                       IPv4 address            Download Speed
+[0;33mCacheFly                        [0;32m205.234.175.175         [0;31m73.7MB/s      [0m
+[0;33mLinode, Tokyo, JP               [0;32m106.187.96.148          [0;31m6.75MB/s      [0m
+[0;33mLinode, Singapore, SG           [0;32m139.162.23.4            [0;31m7.35MB/s      [0m
+[0;33mLinode, London, UK              [0;32m176.58.107.39           [0;31m77.7MB/s      [0m
+[0;33mLinode, Frankfurt, DE           [0;32m139.162.130.8           [0;31m81.4MB/s      [0m
+[0;33mLinode, Fremont, CA             [0;32m50.116.14.9             [0;31m11.9MB/s      [0m
+[0;33mSoftlayer, Dallas, TX           [0;32m173.192.68.18           [0;31m11.2MB/s      [0m
+[0;33mSoftlayer, Seattle, WA          [0;32m67.228.112.250          [0;31m11.4MB/s      [0m
+[0;33mSoftlayer, Frankfurt, DE        [0;32m159.122.69.4            [0;31m59.4MB/s      [0m
+[0;33mSoftlayer, Singapore, SG        [0;32m119.81.28.170           [0;31m8.01MB/s      [0m
+[0;33mSoftlayer, HongKong, CN         [0;32m119.81.130.170          [0;31m5.93MB/s      [0m
+----------------------------------------------------------------------
+-------------------------------------------------
+ nench.sh v2018.04.14 -- https://git.io/nench.sh
+ benchmark timestamp:    2018-12-20 23:41:14 UTC
+-------------------------------------------------
+
+Processor:    
+CPU cores:    
+Frequency:    MHz
+RAM:          1.9G
+Swap:         -
+Kernel:       Linux 4.4.127-mainline-rev1 aarch64
+
+Disks:
+vda   46.6G  HDD
+
+CPU: SHA256-hashing 500 MB
+    CPU: bzip2-compressing 500 MB
+    CPU: AES-encrypting 500 MB
+    
+ioping: seek rate
+    min/avg/max/mdev = 157 us / 187 us / 953 us / 19 us
+ioping: sequential read speed
+    5.52 k requests completed in 5.00 s, 1.11 k iops, 277.8 MiB/s
+
+dd: sequential write speed
+    1st run:    191.69 MiB/s
+    2nd run:    189.78 MiB/s
+    3rd run:    182.15 MiB/s
+    average:    187.87 MiB/s
+
+IPv4 speedtests
+    your IPv4:    51.15.108.xxxx
+
+    Cachefly CDN:         50.80 MiB/s
+    Leaseweb (NL):        159.86 MiB/s
+    Softlayer DAL (US):   13.21 MiB/s
+    Online.net (FR):      59.75 MiB/s
+    OVH BHS (CA):         3.27 MiB/s
+
+No IPv6 connectivity detected
+-------------------------------------------------
+
+Benching I/O ... OK
+Benching CPU. Bzipping 25MB file ... OK
+Benching inbound network. Downloading 100MB file ... OK
+Share at https://github.com/mgutz/vpsbench/wiki/VPS-Hosts
+
+
+_12/20/2018 - VMPLAN - DATACENTER - OS - AUTHOR_
+```
+CPU model: 
+Number of cores: 
+CPU frequency:  MHz
+Total amount of RAM: 1928 MB
+Total amount of swap:  MB
+System uptime:   5 min,       
+I/O speed:  201 MB/s
+Bzip 25MB: 16.38s
+Download 100MB file: 71.2MB/s
+```
+
+
+Hit:1 http://ppa.launchpad.net/scaleway/stable/ubuntu xenial InRelease
+Hit:2 http://ports.ubuntu.com/ubuntu-ports xenial InRelease
+Hit:3 http://ports.ubuntu.com/ubuntu-ports xenial-updates InRelease
+Hit:4 http://ports.ubuntu.com/ubuntu-ports xenial-backports InRelease
+Hit:5 http://ports.ubuntu.com/ubuntu-ports xenial-security InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+make is already the newest version (4.1-6).
+time is already the newest version (1.7-25.1).
+The following additional packages will be installed:
+  autotools-dev binutils cpp cpp-5 gcc-5 gcc-5-base libasan2 libatomic1
+  libcc1-0 libgcc-5-dev libgomp1 libisl15 libitm1 libmpc3 libmpfr4 libperl5.22
+  libsigsegv2 libstdc++6 libubsan0 m4 perl-base perl-modules-5.22
+Suggested packages:
+  autoconf-archive gnu-standards autoconf-doc libtool gettext binutils-doc
+  cpp-doc gcc-5-locales gcc-multilib flex bison gdb gcc-doc gcc-5-doc
+  libgcc1-dbg libgomp1-dbg libitm1-dbg libatomic1-dbg libasan2-dbg
+  liblsan0-dbg libtsan0-dbg libubsan0-dbg libcilkrts5-dbg libmpx0-dbg
+  libquadmath0-dbg perl-doc libterm-readline-gnu-perl
+  | libterm-readline-perl-perl
+The following NEW packages will be installed:
+  autoconf automake autotools-dev binutils cpp cpp-5 gcc gcc-5 libasan2
+  libatomic1 libcc1-0 libgcc-5-dev libgomp1 libisl15 libitm1 libmpc3 libmpfr4
+  libsigsegv2 libubsan0 m4
+The following packages will be upgraded:
+  gcc-5-base libperl5.22 libstdc++6 perl perl-base perl-modules-5.22
+6 upgraded, 20 newly installed, 0 to remove and 81 not upgraded.
+Need to get 22.3 MB of archives.
+After this operation, 61.3 MB of additional disk space will be used.
+Get:1 http://ports.ubuntu.com/ubuntu-ports xenial-updates/main arm64 libperl5.22 arm64 5.22.1-9ubuntu0.6 [2,788 kB]
+Get:2 http://ports.ubuntu.com/ubuntu-ports xenial-updates/main arm64 perl arm64 5.22.1-9ubuntu0.6 [237 kB]
+Get:3 http://ports.ubuntu.com/ubuntu-ports xenial-updates/main arm64 perl-base arm64 5.22.1-9ubuntu0.6 [1,143 kB]
+Get:4 http://ports.ubuntu.com/ubuntu-ports xenial-updates/main arm64 perl-modules-5.22 all 5.22.1-9ubuntu0.6 [2,629 kB]
+Get:5 http://ports.ubuntu.com/ubuntu-ports xenial/main arm64 libsigsegv2 arm64 2.10-4 [13.3 kB]
+Get:6 http://ports.ubuntu.com/ubuntu-ports xenial/main arm64 libmpfr4 arm64 3.1.4-1 [173 kB]
+Get:7 http://ports.ubuntu.com/ubuntu-ports xenial/main arm64 libmpc3 arm64 1.0.3-1 [35.3 kB]
+Get:8 http://ports.ubuntu.com/ubuntu-ports xenial-updates/main arm64 gcc-5-base arm64 5.4.0-6ubuntu1~16.04.11 [17.5 kB]
+Get:9 http://ports.ubuntu.com/ubuntu-ports xenial-updates/main arm64 libstdc++6 arm64 5.4.0-6ubuntu1~16.04.11 [361 kB]
+Get:10 http://ports.ubuntu.com/ubuntu-ports xenial/main arm64 m4 arm64 1.4.17-5 [184 kB]
+Get:11 http://ports.ubuntu.com/ubuntu-ports xenial/main arm64 autoconf all 2.69-9 [321 kB]
+Get:12 http://ports.ubuntu.com/ubuntu-ports xenial/main arm64 autotools-dev all 20150820.1 [39.8 kB]
+Get:13 http://ports.ubuntu.com/ubuntu-ports xenial/main arm64 automake all 1:1.15-4ubuntu1 [510 kB]
+Get:14 http://ports.ubuntu.com/ubuntu-ports xenial-updates/main arm64 binutils arm64 2.26.1-1ubuntu1~16.04.7 [2,545 kB]
+Get:15 http://ports.ubuntu.com/ubuntu-ports xenial/main arm64 libisl15 arm64 0.16.1-1 [401 kB]
+Get:16 http://ports.ubuntu.com/ubuntu-ports xenial-updates/main arm64 cpp-5 arm64 5.4.0-6ubuntu1~16.04.11 [4,539 kB]
+Get:17 http://ports.ubuntu.com/ubuntu-ports xenial/main arm64 cpp arm64 4:5.3.1-1ubuntu1 [27.6 kB]
+Get:18 http://ports.ubuntu.com/ubuntu-ports xenial-updates/main arm64 libcc1-0 arm64 5.4.0-6ubuntu1~16.04.11 [27.2 kB]
+Get:19 http://ports.ubuntu.com/ubuntu-ports xenial-updates/main arm64 libgomp1 arm64 5.4.0-6ubuntu1~16.04.11 [45.8 kB]
+Get:20 http://ports.ubuntu.com/ubuntu-ports xenial-updates/main arm64 libitm1 arm64 5.4.0-6ubuntu1~16.04.11 [23.9 kB]
+Get:21 http://ports.ubuntu.com/ubuntu-ports xenial-updates/main arm64 libatomic1 arm64 5.4.0-6ubuntu1~16.04.11 [6,368 B]
+Get:22 http://ports.ubuntu.com/ubuntu-ports xenial-updates/main arm64 libasan2 arm64 5.4.0-6ubuntu1~16.04.11 [228 kB]
+Get:23 http://ports.ubuntu.com/ubuntu-ports xenial-updates/main arm64 libubsan0 arm64 5.4.0-6ubuntu1~16.04.11 [84.4 kB]
+Get:24 http://ports.ubuntu.com/ubuntu-ports xenial-updates/main arm64 libgcc-5-dev arm64 5.4.0-6ubuntu1~16.04.11 [484 kB]
+Get:25 http://ports.ubuntu.com/ubuntu-ports xenial-updates/main arm64 gcc-5 arm64 5.4.0-6ubuntu1~16.04.11 [5,447 kB]
+Get:26 http://ports.ubuntu.com/ubuntu-ports xenial/main arm64 gcc arm64 4:5.3.1-1ubuntu1 [5,210 B]
+Fetched 22.3 MB in 1s (21.3 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 32852 files and directories currently installed.)
+Preparing to unpack .../libperl5.22_5.22.1-9ubuntu0.6_arm64.deb ...
+Unpacking libperl5.22:arm64 (5.22.1-9ubuntu0.6) over (5.22.1-9ubuntu0.5) ...
+Preparing to unpack .../perl_5.22.1-9ubuntu0.6_arm64.deb ...
+Unpacking perl (5.22.1-9ubuntu0.6) over (5.22.1-9ubuntu0.5) ...
+Preparing to unpack .../perl-base_5.22.1-9ubuntu0.6_arm64.deb ...
+Unpacking perl-base (5.22.1-9ubuntu0.6) over (5.22.1-9ubuntu0.5) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up perl-base (5.22.1-9ubuntu0.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 32852 files and directories currently installed.)
+Preparing to unpack .../perl-modules-5.22_5.22.1-9ubuntu0.6_all.deb ...
+Unpacking perl-modules-5.22 (5.22.1-9ubuntu0.6) over (5.22.1-9ubuntu0.5) ...
+Selecting previously unselected package libsigsegv2:arm64.
+Preparing to unpack .../libsigsegv2_2.10-4_arm64.deb ...
+Unpacking libsigsegv2:arm64 (2.10-4) ...
+Selecting previously unselected package libmpfr4:arm64.
+Preparing to unpack .../libmpfr4_3.1.4-1_arm64.deb ...
+Unpacking libmpfr4:arm64 (3.1.4-1) ...
+Selecting previously unselected package libmpc3:arm64.
+Preparing to unpack .../libmpc3_1.0.3-1_arm64.deb ...
+Unpacking libmpc3:arm64 (1.0.3-1) ...
+Preparing to unpack .../gcc-5-base_5.4.0-6ubuntu1~16.04.11_arm64.deb ...
+Unpacking gcc-5-base:arm64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Setting up gcc-5-base:arm64 (5.4.0-6ubuntu1~16.04.11) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 32876 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_5.4.0-6ubuntu1~16.04.11_arm64.deb ...
+Unpacking libstdc++6:arm64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Setting up libstdc++6:arm64 (5.4.0-6ubuntu1~16.04.11) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Selecting previously unselected package m4.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 32876 files and directories currently installed.)
+Preparing to unpack .../archives/m4_1.4.17-5_arm64.deb ...
+Unpacking m4 (1.4.17-5) ...
+Selecting previously unselected package autoconf.
+Preparing to unpack .../autoconf_2.69-9_all.deb ...
+Unpacking autoconf (2.69-9) ...
+Selecting previously unselected package autotools-dev.
+Preparing to unpack .../autotools-dev_20150820.1_all.deb ...
+Unpacking autotools-dev (20150820.1) ...
+Selecting previously unselected package automake.
+Preparing to unpack .../automake_1%3a1.15-4ubuntu1_all.deb ...
+Unpacking automake (1:1.15-4ubuntu1) ...
+Selecting previously unselected package binutils.
+Preparing to unpack .../binutils_2.26.1-1ubuntu1~16.04.7_arm64.deb ...
+Unpacking binutils (2.26.1-1ubuntu1~16.04.7) ...
+Selecting previously unselected package libisl15:arm64.
+Preparing to unpack .../libisl15_0.16.1-1_arm64.deb ...
+Unpacking libisl15:arm64 (0.16.1-1) ...
+Selecting previously unselected package cpp-5.
+Preparing to unpack .../cpp-5_5.4.0-6ubuntu1~16.04.11_arm64.deb ...
+Unpacking cpp-5 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package cpp.
+Preparing to unpack .../cpp_4%3a5.3.1-1ubuntu1_arm64.deb ...
+Unpacking cpp (4:5.3.1-1ubuntu1) ...
+Selecting previously unselected package libcc1-0:arm64.
+Preparing to unpack .../libcc1-0_5.4.0-6ubuntu1~16.04.11_arm64.deb ...
+Unpacking libcc1-0:arm64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libgomp1:arm64.
+Preparing to unpack .../libgomp1_5.4.0-6ubuntu1~16.04.11_arm64.deb ...
+Unpacking libgomp1:arm64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libitm1:arm64.
+Preparing to unpack .../libitm1_5.4.0-6ubuntu1~16.04.11_arm64.deb ...
+Unpacking libitm1:arm64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libatomic1:arm64.
+Preparing to unpack .../libatomic1_5.4.0-6ubuntu1~16.04.11_arm64.deb ...
+Unpacking libatomic1:arm64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libasan2:arm64.
+Preparing to unpack .../libasan2_5.4.0-6ubuntu1~16.04.11_arm64.deb ...
+Unpacking libasan2:arm64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libubsan0:arm64.
+Preparing to unpack .../libubsan0_5.4.0-6ubuntu1~16.04.11_arm64.deb ...
+Unpacking libubsan0:arm64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libgcc-5-dev:arm64.
+Preparing to unpack .../libgcc-5-dev_5.4.0-6ubuntu1~16.04.11_arm64.deb ...
+Unpacking libgcc-5-dev:arm64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package gcc-5.
+Preparing to unpack .../gcc-5_5.4.0-6ubuntu1~16.04.11_arm64.deb ...
+Unpacking gcc-5 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package gcc.
+Preparing to unpack .../gcc_4%3a5.3.1-1ubuntu1_arm64.deb ...
+Unpacking gcc (4:5.3.1-1ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Setting up perl-modules-5.22 (5.22.1-9ubuntu0.6) ...
+Setting up libperl5.22:arm64 (5.22.1-9ubuntu0.6) ...
+Setting up perl (5.22.1-9ubuntu0.6) ...
+Setting up libsigsegv2:arm64 (2.10-4) ...
+Setting up libmpfr4:arm64 (3.1.4-1) ...
+Setting up libmpc3:arm64 (1.0.3-1) ...
+Setting up m4 (1.4.17-5) ...
+Setting up autoconf (2.69-9) ...
+Setting up autotools-dev (20150820.1) ...
+Setting up automake (1:1.15-4ubuntu1) ...
+update-alternatives: using /usr/bin/automake-1.15 to provide /usr/bin/automake (automake) in auto mode
+Setting up binutils (2.26.1-1ubuntu1~16.04.7) ...
+Setting up libisl15:arm64 (0.16.1-1) ...
+Setting up cpp-5 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up cpp (4:5.3.1-1ubuntu1) ...
+Setting up libcc1-0:arm64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libgomp1:arm64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libitm1:arm64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libatomic1:arm64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libasan2:arm64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libubsan0:arm64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libgcc-5-dev:arm64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up gcc-5 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up gcc (4:5.3.1-1ubuntu1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+UnixBench5.1.3.tgz not found!!!download now...
+UnixBench/
+UnixBench/README
+UnixBench/src/
+UnixBench/src/looper.c
+UnixBench/src/time-polling.c
+UnixBench/src/arith.c
+UnixBench/src/hanoi.c
+UnixBench/src/timeit.c
+UnixBench/src/dhry_1.c
+UnixBench/src/dhry.h
+UnixBench/src/dhry_2.c
+UnixBench/src/fstime.c
+UnixBench/src/syscall.c
+UnixBench/src/execl.c
+UnixBench/src/context1.c
+UnixBench/src/whets.c
+UnixBench/src/dummy.c
+UnixBench/src/big.c
+UnixBench/src/spawn.c
+UnixBench/src/pipe.c
+UnixBench/src/ubgears.c
+UnixBench/pgms/
+UnixBench/pgms/index.base
+UnixBench/pgms/gfx-x11
+UnixBench/pgms/multi.sh
+UnixBench/pgms/unixbench.logo
+UnixBench/pgms/tst.sh
+UnixBench/WRITING_TESTS
+UnixBench/.project
+UnixBench/Run
+UnixBench/testdir/
+UnixBench/testdir/sort.src
+UnixBench/testdir/cctest.c
+UnixBench/testdir/dc.dat
+UnixBench/testdir/large.txt
+UnixBench/.cproject
+UnixBench/results/
+UnixBench/Makefile
+UnixBench/USAGE
+Checking distribution of files
+./pgms  exists
+./src  exists
+./testdir  exists
+./results  exists
+gcc -o ./pgms/arithoh -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Darithoh ./src/arith.c
+gcc -o ./pgms/register -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum='register int' ./src/arith.c
+gcc -o ./pgms/short -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum=short ./src/arith.c
+gcc -o ./pgms/int -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum=int ./src/arith.c
+gcc -o ./pgms/long -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum=long ./src/arith.c
+gcc -o ./pgms/float -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum=float ./src/arith.c
+gcc -o ./pgms/double -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -Ddatum=double ./src/arith.c
+gcc -o ./pgms/hanoi -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/hanoi.c
+gcc -o ./pgms/syscall -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/syscall.c
+gcc -o ./pgms/context1 -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/context1.c
+gcc -o ./pgms/pipe -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/pipe.c
+gcc -o ./pgms/spawn -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/spawn.c
+gcc -o ./pgms/execl -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/execl.c
+cd ./src; gcc -c -DTIME -Wall -pedantic -ansi -DHZ= -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall dhry_1.c
+cd ./src; gcc -c -DTIME -Wall -pedantic -ansi -DHZ= -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall dhry_2.c
+gcc -o ./pgms/dhry2 -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/dhry_1.o ./src/dhry_2.o
+cd ./src; rm -f dhry_1.o dhry_2.o
+cd ./src; gcc -c -DTIME -Wall -pedantic -ansi -DREG=register -DHZ= -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall dhry_1.c -o dhry_1_reg.o
+cd ./src; gcc -c -DTIME -Wall -pedantic -ansi -DREG=register -DHZ= -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall dhry_2.c -o dhry_2_reg.o
+gcc -o ./pgms/dhry2reg -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/dhry_1_reg.o ./src/dhry_2_reg.o
+cd ./src; rm -f dhry_1_reg.o dhry_2_reg.o
+gcc -o ./pgms/looper -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/looper.c
+gcc -o ./pgms/fstime -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall ./src/fstime.c
+gcc -o ./pgms/whetstone-double -DTIME -Wall -pedantic -ansi -O2 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -DDP -DUNIX -DUNIXBENCH ./src/whets.c -lm
+make all
+make[1]: Entering directory '/opt/unixbench/UnixBench'
+Checking distribution of files
+./pgms  exists
+./src  exists
+./testdir  exists
+./tmp  exists
+./results  exists
+make[1]: Leaving directory '/opt/unixbench/UnixBench'
+
+   #    #  #    #  #  #    #          #####   ######  #    #   ####   #    #
+   #    #  ##   #  #   #  #           #    #  #       ##   #  #    #  #    #
+   #    #  # #  #  #    ##            #####   #####   # #  #  #       ######
+   #    #  #  # #  #    ##            #    #  #       #  # #  #       #    #
+   #    #  #   ##  #   #  #           #    #  #       #   ##  #    #  #    #
+    ####   #    #  #  #    #          #####   ######  #    #   ####   #    #
+
+   Version 5.1.3                      Based on the Byte Magazine Unix Benchmark
+
+   Multi-CPU version                  Version 5 revisions by Ian Smith,
+                                      Sunnyvale, CA, USA
+   January 13, 2011                   johantheghost at yahoo period com
+
+
+1 x Dhrystone 2 using register variables  1 2 3 4 5 6 7 8 9 10
+
+1 x Double-Precision Whetstone  1 2 3 4 5 6 7 8 9 10
+
+1 x Execl Throughput  1 2 3
+
+1 x File Copy 1024 bufsize 2000 maxblocks  1 2 3
+
+1 x File Copy 256 bufsize 500 maxblocks  1 2 3
+
+1 x File Copy 4096 bufsize 8000 maxblocks  1 2 3
+
+1 x Pipe Throughput  1 2 3 4 5 6 7 8 9 10
+
+1 x Pipe-based Context Switching  1 2 3 4 5 6 7 8 9 10
+
+1 x Process Creation  1 2 3
+
+1 x System Call Overhead  1 2 3 4 5 6 7 8 9 10
+
+1 x Shell Scripts (1 concurrent)  1 2 3
+
+1 x Shell Scripts (8 concurrent)  1 2 3
+
+========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: scw-ddc5e1: GNU/Linux
+   OS: GNU/Linux -- 4.4.127-mainline-rev1 -- #1 SMP Sun Apr 8 10:44:07 UTC 2018
+   Machine: aarch64 (aarch64)
+   Language: en_US.utf8 (charmap="UTF-8", collate="UTF-8")
+   23:44:05 up 6 min,  1 user,  load average: 1.12, 0.63, 0.28; runlevel 3
+
+------------------------------------------------------------------------
+Benchmark Run: Thu Dec 20 2018 23:44:05 - 00:12:03
+0 CPUs in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables        8200015.4 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     1775.7 MWIPS (10.0 s, 7 samples)
+Execl Throughput                               1132.3 lps   (29.9 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        163612.6 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           57946.9 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        398525.4 KBps  (30.0 s, 2 samples)
+Pipe Throughput                              461550.6 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                  15125.4 lps   (10.0 s, 7 samples)
+Process Creation                               2443.1 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   2761.5 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    799.4 lpm   (60.0 s, 2 samples)
+System Call Overhead                        1018729.9 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0    8200015.4    702.7
+Double-Precision Whetstone                       55.0       1775.7    322.9
+Execl Throughput                                 43.0       1132.3    263.3
+File Copy 1024 bufsize 2000 maxblocks          3960.0     163612.6    413.2
+File Copy 256 bufsize 500 maxblocks            1655.0      57946.9    350.1
+File Copy 4096 bufsize 8000 maxblocks          5800.0     398525.4    687.1
+Pipe Throughput                               12440.0     461550.6    371.0
+Pipe-based Context Switching                   4000.0      15125.4     37.8
+Process Creation                                126.0       2443.1    193.9
+Shell Scripts (1 concurrent)                     42.4       2761.5    651.3
+Shell Scripts (8 concurrent)                      6.0        799.4   1332.3
+System Call Overhead                          15000.0    1018729.9    679.2
+                                                                   ========
+System Benchmarks Index Score                                         381.5
+
+
+
+======= Script description and score comparison completed! ======= 
+
+
+
+
+DNS performance                  test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average 
+10.6.30.8         1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms    2 ms      1.10
+10.6.30.9         1 ms    3 ms    1 ms    1 ms    1 ms    110 ms  1 ms    1 ms    1 ms    3 ms      12.30
+cloudflare        1 ms    1 ms    1 ms    32 ms   2 ms    1 ms    1 ms    1 ms    1 ms    1 ms      4.20
+level3            7 ms    8 ms    8 ms    7 ms    7 ms    8 ms    8 ms    31 ms   7 ms    16 ms     10.70
+google            18 ms   15 ms   13 ms   16 ms   29 ms   23 ms   16 ms   19 ms   17 ms   14 ms     18.00
+quad9             1 ms    3 ms    1 ms    3 ms    2 ms    2 ms    1 ms    1 ms    2 ms    9 ms      2.50
+freenom           2 ms    4 ms    1 ms    1 ms    263 ms  5 ms    1 ms    7 ms    2 ms    4 ms      29.00
+opendns           28 ms   14 ms   13 ms   47 ms   14 ms   104 ms  14 ms   32 ms   31 ms   24 ms     32.10
+norton            9 ms    9 ms    8 ms    9 ms    10 ms   1000 ms 8 ms    8 ms    8 ms    8 ms      107.70
+cleanbrowsing     2 ms    2 ms    2 ms    2 ms    1 ms    1 ms    2 ms    6 ms    1 ms    2 ms      2.10
+yandex            32 ms   68 ms   29 ms   32 ms   29 ms   29 ms   32 ms   32 ms   29 ms   66 ms     37.80
+adguard           3 ms    1 ms    1 ms    3 ms    7 ms    1 ms    2 ms    2 ms    4 ms    2 ms      2.60
+neustar           9 ms    8 ms    9 ms    10 ms   8 ms    8 ms    8 ms    8 ms    10 ms   9 ms      8.70
+comodo            13 ms   13 ms   13 ms   13 ms   13 ms   13 ms   13 ms   13 ms   13 ms   20 ms     13.70
